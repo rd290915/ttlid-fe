@@ -1,0 +1,26 @@
+.tl-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px;
+  transition: $transition_03s;
+  font-family: $OpenSansBold;
+  font-size: 18px;
+  cursor: pointer;
+}
+.tl-button.btn-black {
+  border: 1.25px solid $black;
+  color: $black;
+}
+.tl-button.btn-black:hover {
+  background-color: $black;
+  color: $white;
+}
+.tl-button.btn-white {
+  border: 1.25px solid $white;
+  color: $white;
+}
+.tl-button.btn-white:hover {
+  background-color: $white;
+  color: $black;
+}

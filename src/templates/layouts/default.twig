@@ -3,15 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ head_title }} &middot; Frontie</title>
+    <title>{{ head_title }} - Branz Simatupang</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/main.css">
   </head>
 
-  <body{% if body_class is defined and body_class is not empty %} class="{{ body_class }}"{% endif %}>
-
+  <body>
     {% block page %}{% endblock %}
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

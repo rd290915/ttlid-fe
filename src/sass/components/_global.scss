@@ -1,0 +1,20 @@
+html { font-family: $OpenSans; }
+.tl-container {
+  padding-left: 110px;
+  padding-right: 110px;
+}
+.tl-container-fluid {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.tl-sec-padding-y {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.tl-sec-title {
+  margin-bottom: 50px;
+  font-family: $TrajanProBold;
+  font-size: 36px;
+}
+.tl-sec-title.text-white { color: $white; }
+.tl-sec-title.text-black { color: $black; }

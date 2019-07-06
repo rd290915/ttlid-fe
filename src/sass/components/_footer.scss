@@ -1,0 +1,22 @@
+.tl-footer {
+  padding: 35px 0;
+  background-color: $black;
+}
+.tl-footer-logo,
+.tl-footer-sosmed {
+  flex-basis: 17%;
+  max-width: 17%;
+}
+.tl-footer-cr {
+  font-family: $TrajanPro;
+  font-size: 12px;
+  color: white;
+}
+.tl-footer-cr > span { text-decoration: underline; }
+.tl-footer-sosmed > a {
+  font-size: 28px;
+  color: white;
+}
+.tl-footer-sosmed > a:last-child {
+  margin-left: 15px;
+}

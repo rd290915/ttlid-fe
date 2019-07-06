@@ -1,71 +1,29 @@
-/**
- * Typography
- */
-
 html {
-  font-family: $font-family;
-  font-size: $font-size-base;
-  color: $body-color;
-  line-height: $line-height-base;
+  padding: 0;
+  margin: 0;
 }
-
-p {
-  margin-top: 0;
-  margin-bottom: $paragraph-margin-bottom;
+.display-flex {
+  display: flex;
+  &.flex-wrap { flex-wrap: wrap; }
+  &.justify-content-center { justify-content: center; }
+  &.justify-content-between { justify-content: space-between; }
+  &.justify-content-around { justify-content: space-around; }
+  &.justify-content-start { justify-content: flex-start; }
+  &.justify-content-end { justify-content: flex-end; }
+  &.align-items-stretch { align-items: stretch; }
+  &.align-items-center { align-items: center; }
+ }
+.display-block { display: block; }
+.display-none { display: none; }
+.position-relative { position: relative; }
+.position-absolute { position: absolute; }
+.position-fixed { position: fixed; }
+.width-100 {
+  flex-basis: 100%;
+  width: 100%;
+  max-width: 100%;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  margin-top: 0;
-  margin-bottom: $headings-margin-bottom;
-  font-family: $headings-font-family;
-  font-weight: $headings-font-weight;
-  line-height: $headings-line-height;
-  color: $headings-color;
-}
-
-h1,
-.h1 {
-  font-size: $h1-font-size;
-}
-h2,
-.h2 {
-  font-size: $h2-font-size;
-}
-h3,
-.h3 {
-  font-size: $h3-font-size;
-}
-h4,
-.h4 {
-  font-size: $h4-font-size;
-}
-h5,
-.h5 {
-  font-size: $h5-font-size;
-}
-h6,
-.h6 {
-  font-size: $h6-font-size;
-}
-
-a {
-  color: $link-color;
-  text-decoration: $link-decoration;
-  background-color: transparent; // Remove the gray background on active links in IE 10.
-  -webkit-text-decoration-skip: objects; // Remove gaps in links underline in iOS 8+ and Safari 8+.
-  &:hover {
-    color: $link-hover-color;
-    text-decoration: $link-hover-decoration;
-  }
-}
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-justify { text-align: justify; }
