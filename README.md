@@ -2,28 +2,32 @@
   - Partials:
     - [X] Ubah image2
     - [X] Set link pada setiap link a href
-    - [95%] Header:
+    - [O] Header:
       - [O] Buat style backround black
-      - [X] Buat style background white
-      - [X] Buat efek sticky scrool
-    - [O] Footer
-    - [X] Buat auto height pada content wrapper
+      - [O] Buat style background white
+      - [O] Buat efek sticky scrool
+    - [O] Footer:
+      - [O] Buat efek to top
+    - [O] Buat auto height pada content wrapper
   - Pages:
-    - [Dev] Homepage:
+    - [98%] Homepage:
       - [O] Section Header
-      - [90%] Section Gallery:
-        - [X] Show popup image view
+      - [O] Section Gallery:
+        - [O] Show popup image view
       - [O] Section Our Facilities
-      - [Dev] Section Landscape and Design:
-        - [X] Buat carousel slick
-      - [X] Section Youtube
-      - [X] Section Unit Plan
-      - [X] Section About Us
-      - [X] Section Download Brochure
-      - [X] Section Location:
+      - [O] Section Landscape and Design:
+        - [O] Buat carousel slick
+      - [O] Section Youtube:
+        - [O] Embed youtube
+      - [O] Section Unit Plan
+      - [O] Section About Us
+      - [O] Section Download Brochure
+      - [98%] Section Location:
         - [X] Integrate GMaps
-    - [X] About Us
-    - [X] Contact Us
+    - [O] About Us
+    - [95%] Contact Us:
+      - [O] Buat JS efek label up down
+      - [X] Integrate Gmaps
     - [X] Tower Tour
     - [X] Landscape
     - [X] Unit Plans

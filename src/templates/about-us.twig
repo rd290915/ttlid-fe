@@ -1,0 +1,19 @@
+{% extends 'layouts/default.twig' %}
+{% set head_title = 'About Us' %}
+
+{% block page %}
+  <!-- header -->
+  {% include './partials/layouts/_header.twig' %}
+
+  <!-- content -->
+  <div class="tl-content" id="content-body">
+    <!-- section 1 header -->
+    {% include './partials/about/_sec-header.twig' %}
+
+    <!-- section 2 about -->
+    {% include './partials/about/_sec-about.twig' %}
+  </div>
+
+  <!-- footer -->
+  {% include './partials/layouts/_footer.twig' %}
+{% endblock %}

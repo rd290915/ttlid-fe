@@ -2,6 +2,21 @@
   padding: 35px 0;
   background-color: $black;
 }
+.tl-footer-to-top {
+  position: absolute;
+  top: -25px;
+  right: 25px;
+  height: 50px;
+  width: 50px;
+  padding-bottom: 6px;
+  z-index: 5;
+  background-color: white;
+  border-radius: 100%;
+  font-size: 48px;
+  color: $black;
+  line-height: 0;
+  cursor: pointer;
+}
 .tl-footer-logo,
 .tl-footer-sosmed {
   flex-basis: 17%;

@@ -24,3 +24,88 @@
   background-color: $white;
   color: $black;
 }
+.tl-field-chekbox {
+  display: flex;
+  cursor: pointer;
+}
+.tl-field-chekbox-input {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  margin-right: 15px;
+}
+.tl-field-chekbox-input-field {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+.tl-field-chekbox-input-skin {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  background-color: $white;
+  border: 1px solid $black;
+}
+.tl-field-chekbox-input-skin::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  height: 70%;
+  width: 70%;
+  background-color: $red;
+  transition: $transition_03s;
+  transform: scale(0, 0)
+}
+.tl-field-chekbox-input-field:checked ~ .tl-field-chekbox-input-skin::before {
+  transform: scale(1, 1)
+}
+.tl-field-chekbox-label {
+  margin-top: 2.5px;
+  font-family: $TrajanProBold;
+  font-size: 18px;
+}
+.tl-field {
+  position: relative;
+}
+.tl-field.mandatory::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  height: 15px;
+  width: 15px;
+  z-index: 3;
+  background-color: $red;
+  border-radius: 100%;
+}
+.tl-field-input {
+  height: 45px;
+  width: 100%;
+  padding: 0 15px;
+  background: $white;
+  border: 1px solid #c7c7c7;
+}
+textarea.tl-field-input {
+  height: 185px;
+  padding: 15px;
+}
+.tl-field-label {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  transition: $transition_03s;
+  font-size: 16px;
+}
+.tl-field-input.not-empty ~ .tl-field-label {
+  top: 2.5px;
+  font-family: $OpenSansBold;
+  font-size: 10px;
+}

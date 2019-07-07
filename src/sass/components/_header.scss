@@ -7,9 +7,27 @@
   width: 100%;
   z-index: 1000;
   background-color: $black;
+  transition: $transition_03s;
 }
-.tl-header-inner.bg-white { background-color: $white; }
-.tl-header-logo { padding-left: 25px; }
+.tl-header.bg-white .tl-header-inner { background-color: $white; }
+.tl-header.bg-black .tl-header-inner { background-color: $black; }
+.tl-header-logo {
+  position: relative;
+  height: 47px;
+  padding-left: 25px;
+}
+.tl-header-logo > a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 25px;
+  z-index: 1;
+  opacity: 0;
+  transition: $transition_03s;
+  cursor: pointer;
+}
+.tl-header.tl-header.bg-white .tl-header-logo > a.logo-black { opacity: 1; }
+.tl-header.tl-header.bg-black .tl-header-logo > a.logo-white { opacity: 1; }
 .tl-header-menu-wrapper,
 .tl-header-button-wrapper { height: 100%; }
 .tl-header-menu {
@@ -17,22 +35,51 @@
   margin-right: 50px;
 }
 .tl-header-menu > a {
+  position: relative;
   height: 100%;
   padding: 0 10px;
   font-family: $TrajanProBold;
   font-size: 14px;
   color: $white;
   transition: $transition_03s;
+  cursor: pointer;
+}
+.tl-header.bg-white .tl-header-menu > a { color: $black; }
+.tl-header.bg-black .tl-header-menu > a { color: $white; }
+.tl-header-menu > a::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  margin-left: -5px;
+  border-radius: 100%;
+  z-index: 1;
+  background-color: $white;
+  opacity: 0;
+  transition: $transition_03s;
+}
+.tl-header.bg-white .tl-header-menu > a::before { background-color: $black; }
+.tl-header.bg-black .tl-header-menu > a::before { background-color: $white; }
+.tl-header-menu > a:hover::before,
+.tl-header-menu > a.active::before {
+  top: 10px;
+  opacity: 1;
 }
 .tl-header-button-cu,
 .tl-header-button-fr {
-  height: 49.5%;
+  height: 50%;
   width: 160px;
   font-size: 14px;
   color: $white;
 }
 .tl-header-button-cu {
   background-color: #514d3d;
-  border: 1% solid $black;
+  border-bottom: .5px solid $black;
 }
-.tl-header-button-fr { background-color: #674b2f; }
+.tl-header-button-fr {
+  background-color: #674b2f;
+  border-top: .5px solid $black;
+}

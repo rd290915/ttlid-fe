@@ -1,0 +1,21 @@
+.tl-cu-adrs-wrapper > div {
+  height: 460px;
+  flex-basis: 50%;
+  max-width: 50%;
+}
+.tl-cu-adrs-descr { background-color: $black; }
+.tl-cu-adrs-descr-phone,
+.tl-cu-adrs-descr-full {
+  font-family: $TrajanProBold;
+  font-size: 16px;
+  color: $white;
+}
+.tl-cu-adrs-map { overflow: hidden; }
+.tl-cu-adrs-map img { height: 100%; }
+.tl-cu-fm { background-color: $silver; }
+.tl-cu-fm-limit > .tl-limit {
+  margin: 0 25px;
+  height: 45px;
+  width: 1px;
+  background-color: $black;
+}

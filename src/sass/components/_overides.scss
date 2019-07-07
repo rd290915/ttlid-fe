@@ -1,0 +1,7 @@
+.slick-dotted.slick-slider { margin-bottom: 0; }
+.slick-dots { bottom: 35px; }
+.slick-dots li button {
+  background-color: $black;
+  border-radius: 100%;
+}
+.slick-dots li.slick-active button { background-color: $white; }

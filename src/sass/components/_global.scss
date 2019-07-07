@@ -3,6 +3,10 @@ html { font-family: $OpenSans; }
   padding-left: 110px;
   padding-right: 110px;
 }
+.tl-container.pad-more {
+  padding-left: 260px;
+  padding-right: 260px;
+}
 .tl-container-fluid {
   padding-left: 80px;
   padding-right: 80px;
@@ -18,3 +22,6 @@ html { font-family: $OpenSans; }
 }
 .tl-sec-title.text-white { color: $white; }
 .tl-sec-title.text-black { color: $black; }
+.tl-sec-title.gap-less { margin-bottom: 25px; }
+.tl-sec-title.gap-0 { margin-bottom: 0; }
+.tl-header-text { font-size: 16px; }

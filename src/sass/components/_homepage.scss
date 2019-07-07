@@ -66,3 +66,111 @@
   font-size: 16px;
   color: $black;
 }
+.tl-home-ls-slider-item > div { background: rgba(0,0,0,0.4); }
+.tl-home-ls-slider-item.shahow-white > div { background: rgba(255,255,255,0.2); }
+.tl-home-vid-video {
+  flex: 0 0 65%;
+  max-width: 65%;
+  height: 500px;
+}
+.tl-home-vid-video iframe {
+  height: 100% !important;
+  width: 100% !important;
+}
+.tl-home-vid-descr {
+  flex: 0 0 35%;
+  max-width: 35%;
+  height: 500px;
+  padding-right: 50px;
+  padding-left: 50px;
+  overflow-y: auto;
+  background: $black;
+}
+.tl-home-vid-descr-title { font-size: 16px; }
+.tl-home-vid-descr-text > p {
+  margin-bottom: 25px;
+  font-size: 16px;
+  color: $white;
+}
+.tl-home-vid-descr-text > p:last-child { margin-bottom: 0; }
+.tl-home-au-stat { padding: 0 210px; }
+.tl-home-au-stat-item {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.tl-home-au-stat-item > .wrapp {
+  position: relative;
+  height: 125px;
+  border: 1px solid $black;
+  border-radius: 10px;
+}
+.tl-home-au-stat-item-icon { position: absolute; }
+.tl-home-au-stat-item > .wrapp.employee .tl-home-au-stat-item-icon {
+  top: 5px;
+  left: 0;
+  width: 100%;
+}
+.tl-home-au-stat-item > .wrapp.companies .tl-home-au-stat-item-icon {
+  top: 15px;
+  right: 5px;
+}
+.tl-home-au-stat-item > .wrapp.consolidated .tl-home-au-stat-item-icon {
+  top: 20px;
+  right: 5px;
+}
+.tl-home-au-stat-item > .wrapp.sqm .tl-home-au-stat-item-icon {
+  bottom: 0;
+  right: 5px;
+}
+.tl-home-au-stat-item > .wrapp.condominium .tl-home-au-stat-item-icon,
+.tl-home-au-stat-item > .wrapp.office .tl-home-au-stat-item-icon {
+  bottom: -3px;
+  right: 5px;
+}
+.tl-home-au-stat-item-descr {
+  position: absolute;
+  padding: 15px;
+  z-index: 3;
+}
+.tl-home-au-stat-item > .wrapp.employee .tl-home-au-stat-item-descr {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.tl-home-au-stat-item > .wrapp.companies .tl-home-au-stat-item-descr {
+  top: 50%;
+  left: 0;
+  margin-top: -50.5px;
+}
+.tl-home-au-stat-item > .wrapp.consolidated .tl-home-au-stat-item-descr {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.tl-home-au-stat-item > .wrapp.sqm .tl-home-au-stat-item-descr {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.tl-home-au-stat-item > .wrapp.condominium .tl-home-au-stat-item-descr,
+.tl-home-au-stat-item > .wrapp.office .tl-home-au-stat-item-descr {
+  top: 0;
+  left: 0;
+}
+.tl-home-au-stat-item-descr > .valuee {
+  font-family: $OpenSansBold;
+  font-size: 48px;
+  color: $grey;
+}
+.tl-home-au-stat-item-descr > .valuee > span { font-size: 20px; }
+.tl-home-au-stat-item-descr > .titlee {
+  font-size: 14px;
+  color: $grey;
+}
+.tl-home-au-stat-item > .wrapp.sqm .tl-home-au-stat-item-descr > .titlee { width: 100px; }
+.tl-home-au-stat-item > .wrapp.condominium .tl-home-au-stat-item-descr > .titlee,
+.tl-home-au-stat-item > .wrapp.office .tl-home-au-stat-item-descr > .titlee { width: 110px; }
+#home-brochure .tl-sec-title { font-size: 24px; }
+.tl-home-lc { background-color: $blackLight; }
+.tl-home-lc-map { text-align: center; }
+.tl-home-lc-map img { max-width: 100%; }
