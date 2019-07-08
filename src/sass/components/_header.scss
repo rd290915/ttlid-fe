@@ -30,9 +30,14 @@
 .tl-header.tl-header.bg-black .tl-header-logo > a.logo-white { opacity: 1; }
 .tl-header-menu-wrapper,
 .tl-header-button-wrapper { height: 100%; }
+.tl-header-menu-wrapper {
+  flex-basis: 87%;
+  max-width: 87%;
+}
 .tl-header-menu {
   height: 100%;
   margin-right: 50px;
+  overflow-x: auto;
 }
 .tl-header-menu > a {
   position: relative;

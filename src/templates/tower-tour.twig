@@ -1,0 +1,28 @@
+{% extends 'layouts/default.twig' %}
+{% set head_title = 'Tower Tour' %}
+
+{% block page %}
+  <!-- header -->
+  {% include './partials/layouts/_header.twig' %}
+
+  <!-- content -->
+  <div class="tl-content" id="content-body">
+    <!-- section 1 header -->
+    {% include './partials/tower/_sec-header.twig' %}
+
+    <!-- section 2 video -->
+    {% include './partials/tower/_sec-video.twig' %}
+
+    <!-- section 3 facilities -->
+    {% include './partials/tower/_sec-facilities.twig' %}
+
+    <!-- section 4 actual -->
+    {% include './partials/tower/_sec-actual.twig' %}
+
+    <!-- section 5 brochure -->
+    {% include './partials/tower/_sec-brochure.twig' %}
+  </div>
+
+  <!-- footer -->
+  {% include './partials/layouts/_footer.twig' %}
+{% endblock %}

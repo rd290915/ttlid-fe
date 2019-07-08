@@ -25,9 +25,21 @@
       - [98%] Section Location:
         - [X] Integrate GMaps
     - [O] About Us
-    - [95%] Contact Us:
+    - [9*%] Contact Us:
       - [O] Buat JS efek label up down
       - [X] Integrate Gmaps
-    - [X] Tower Tour
+    - [O] Tower Tour
+      - [O] Section Header
+      - [O] Section Video
+      - [O] Section Facilities
+      - [O] Section Actual
+      - [O] Section Brochure
     - [X] Landscape
     - [X] Unit Plans
+    - [X] Concept
+    - [X] Facilities
+    - [X] Future
+
+- Fix Bugs:
+  - [O] Height landscape dan unit plan disamakan sesuai mockups
+  - [O] Fix menu hedaer pada resolusi dibawah 1280

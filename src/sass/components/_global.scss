@@ -20,6 +20,20 @@ html { font-family: $OpenSans; }
   font-family: $TrajanProBold;
   font-size: 36px;
 }
+.tl-sec-title.bordered {
+  position: relative;
+  padding-bottom: 25px;
+}
+.tl-sec-title.bordered::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -0.5px;
+  left: 10%;
+  height: 1px;
+  width: 80%;
+  background-color: $brown;
+}
 .tl-sec-title.text-white { color: $white; }
 .tl-sec-title.text-black { color: $black; }
 .tl-sec-title.gap-less { margin-bottom: 25px; }

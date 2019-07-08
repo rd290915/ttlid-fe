@@ -1,0 +1,44 @@
+.tl-tower-descr-text {
+  padding: 0 255px;
+  font-size: 16px;
+}
+.tl-actual-tv {
+  position: relative;
+  margin-bottom: 50px;
+}
+.tl-actual-tv::before,
+.tl-actual-tv::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 80%;
+  background-color: $brown;
+}
+.tl-actual-tv::before {
+  top: -5px;
+  right: 0;
+}
+.tl-actual-tv::after {
+  bottom: -5px;
+  left: 0;
+}
+.tl-actual-tv-title {
+  flex-basis: 60%;
+  max-width: 60%;
+  padding: 50px;
+}
+.tl-actual-tv-title > .titlee {
+  font-family: $TrajanProBold;
+  font-size: 36px;
+  color: $black;
+}
+.tl-actual-tv-video {
+  height: 295px;
+  flex-basis: 40%;
+  max-width: 40%;
+}
+.tl-actual-tv-video iframe {
+  height: 100% !important;
+  width: 100% !important;
+}
