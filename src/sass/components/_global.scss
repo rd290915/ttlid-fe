@@ -4,8 +4,8 @@ html { font-family: $OpenSans; }
   padding-right: 110px;
 }
 .tl-container.pad-more {
-  padding-left: 260px;
-  padding-right: 260px;
+  padding-left: 19.3%;
+  padding-right: 19.3%;
 }
 .tl-container-fluid {
   padding-left: 80px;
@@ -38,4 +38,37 @@ html { font-family: $OpenSans; }
 .tl-sec-title.text-black { color: $black; }
 .tl-sec-title.gap-less { margin-bottom: 25px; }
 .tl-sec-title.gap-0 { margin-bottom: 0; }
+.tl-sec-title-litle {
+  position: relative;
+  padding: 10px;
+  margin-bottom: 45px;
+  background-color: $black;
+  font-family: $OpenSans;
+  font-size: 16px;
+}
+.tl-sec-title-litle::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -20px;
+  left: 10%;
+  height: 1px;
+  width: 80%;
+  background-color: $brown;
+}
 .tl-header-text { font-size: 16px; }
+.text-brown { color: $brown; }
+.font-size-12px { font-size: 12px; }
+.font-size-14px { font-size: 14px; }
+.font-size-16px { font-size: 16px; }
+.font-size-18px { font-size: 18px; }
+.font-size-20px { font-size: 20px; }
+.font-size-22px { font-size: 22px; }
+.font-size-24px { font-size: 24px; }
+.font-size-26px { font-size: 26px; }
+.font-size-28px { font-size: 28px; }
+.font-size-30px { font-size: 30px; }
+.font-size-32px { font-size: 32px; }
+.font-size-34px { font-size: 34px; }
+.font-size-36px { font-size: 36px; }
+.trajanpro-bold { font-family: $TrajanProBold; }

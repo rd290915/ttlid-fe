@@ -1,0 +1,38 @@
+.tl-lad-img {
+  position: relative;
+  height: 420px;
+  margin-bottom: 30px;
+}
+.tl-lad-img-1,
+.tl-lad-img-2,
+.tl-lad-img-3 {
+  position: absolute;
+}
+.tl-lad-img-1 {
+  top: 75px;
+  left: 0;
+  height: 290px;
+  width: 48%;
+  z-index: 1;
+}
+.tl-lad-img-2 {
+  top: 0;
+  right: 0;
+  height: 290px;
+  width: 48%;
+  z-index: 1;
+}
+.tl-lad-img-3 {
+  bottom: 0;
+  left: 50%;
+  height: 170px;
+  width: 150px;
+  margin-left: -75px;
+  z-index: 3;
+}
+.tl-lad-gal-list-item {
+  height: 225px;
+  flex-basis: 25%;
+  width: 25%;
+}
+.tl-lad-design { background-color: $white; }

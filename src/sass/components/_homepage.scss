@@ -70,9 +70,7 @@
 }
 .tl-home-ls-slider-item > div { background: rgba(0,0,0,0.4); }
 .tl-home-ls-slider-item.shahow-white > div { background: rgba(255,255,255,0.2); }
-.tl-home-ls-slider-item .tl-container {
-  height: 455px;
-}
+.tl-home-ls-slider-item:not(.height-auto) .tl-container { height: 455px; }
 .tl-home-vid-video {
   position: relative;
   flex: 0 0 65%;

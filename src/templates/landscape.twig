@@ -1,0 +1,28 @@
+{% extends 'layouts/default.twig' %}
+{% set head_title = 'Landscape and Design' %}
+
+{% block page %}
+  <!-- header -->
+  {% include './partials/layouts/_header.twig' %}
+
+  <!-- content -->
+  <div class="tl-content" id="content-body">
+    <!-- section 1 header -->
+    {% include './partials/landscape/_sec-header.twig' %}
+
+    <!-- section 2 landscape -->
+    {% include './partials/landscape/_sec-landscape.twig' %}
+
+    <!-- section 3 gallery -->
+    {% include './partials/landscape/_sec-gallery.twig' %}
+
+    <!-- section 4 design -->
+    {% include './partials/landscape/_sec-design.twig' %}
+
+    <!-- section 5 join -->
+    {% include './partials/landscape/_sec-join.twig' %}
+  </div>
+
+  <!-- footer -->
+  {% include './partials/layouts/_footer.twig' %}
+{% endblock %}
