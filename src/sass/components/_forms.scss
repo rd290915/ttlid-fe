@@ -24,6 +24,14 @@
   background-color: $white;
   color: $black;
 }
+.tl-button.btn-brown {
+  border: 1.25px solid $brown;
+  color: $brown;
+}
+.tl-button.btn-brown:hover {
+  background-color: $brown;
+  color: $white;
+}
 .tl-field-chekbox {
   display: flex;
   cursor: pointer;
@@ -108,4 +116,12 @@ textarea.tl-field-input {
   top: 2.5px;
   font-family: $OpenSansBold;
   font-size: 10px;
+}
+.tl-field-select {
+  height: 60px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 1px solid $white;
+  font-size: 18px;
+  color: $white;
 }

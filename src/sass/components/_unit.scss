@@ -1,0 +1,56 @@
+.tl-up-image {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+.tl-up-image.no-pad {
+  padding-right: 0;
+  padding-left: 0;
+}
+.tl-up-image > div {
+  height: 385px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-top: 10px solid $brown;
+  border-bottom: 10px solid $brown;
+  border-radius: 10px;
+}
+.tl-up-rp-filter {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: $black;
+}
+.tl-up-rp-filter-wrap { margin-bottom: 40px; }
+.tl-up-rp-filter-title { margin-right: 30px; }
+.tl-up-rp-filter-form { max-width: 76%; }
+.tl-up-rp-filter-select { margin-right: 15px; }
+.tl-up-rp-filter-type {
+  max-width: 79%;
+  overflow-x: auto;
+}
+.tl-up-rp-filter-type-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 7.5px 15px;
+  margin-right: 7.5px;
+  margin-left: 7.5px;
+  border: 1px solid $white;
+  transition: $transition_03s;
+  font-size: 16px;
+  color: $white;
+  cursor: pointer;
+}
+.tl-up-rp-filter-type-item:hover,
+.tl-up-rp-filter-type-item.active { background-color: rgba(255,255,255,0.4); }
+.tl-up-rp-result { background-color: $blackLight; }
+.tl-up-rp-result img { max-width: 100%; }
+.tl-up-rp-get {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: $silver;
+}
+.tl-up-rp-get-title {
+  font-family: $TrajanProBold;
+  font-size: 24px;
+  color: $brown;
+}

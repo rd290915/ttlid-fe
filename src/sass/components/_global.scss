@@ -16,14 +16,12 @@ html { font-family: $OpenSans; }
   padding-bottom: 90px;
 }
 .tl-sec-title {
+  position: relative;
   margin-bottom: 50px;
   font-family: $TrajanProBold;
   font-size: 36px;
 }
-.tl-sec-title.bordered {
-  position: relative;
-  padding-bottom: 25px;
-}
+.tl-sec-title.bordered { padding-bottom: 25px; }
 .tl-sec-title.bordered::before {
   content: '';
   display: block;
@@ -54,6 +52,17 @@ html { font-family: $OpenSans; }
   left: 10%;
   height: 1px;
   width: 80%;
+  background-color: $brown;
+}
+.tl-sec-title.bordered-top::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  height: 1px;
+  width: 70px;
+  margin-left: -35px;
   background-color: $brown;
 }
 .tl-header-text { font-size: 16px; }

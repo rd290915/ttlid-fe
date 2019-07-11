@@ -34,13 +34,20 @@
       - [O] Section Facilities
       - [O] Section Actual
       - [O] Section Brochure
-    - [O] Landscape and Design
+    - [98%] Landscape and Design
       - [O] Section Header
       - [O] Section Landscape
       - [O] Section Gallery
-      - [O] Section Design
+      - [98%] Section Design:
+        - [X] Buat slick slider
       - [O] Section Join
-    - [Dev] Unit Plans
+    - [90%] Unit Plans:
+      - [O] Section Header
+      - [O] Section Living
+      - [O] Section Luxurious
+      - [O] Section Japanese
+      - [O] Section Room Plan
+      - [X] Section Popup Form Brochure
     - [X] Concept
     - [X] Facilities
     - [X] Future
