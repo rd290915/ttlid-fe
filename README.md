@@ -41,18 +41,28 @@
       - [98%] Section Design:
         - [X] Buat slick slider
       - [O] Section Join
-    - [90%] Unit Plans:
+    - [O] Unit Plans:
       - [O] Section Header
       - [O] Section Living
       - [O] Section Luxurious
       - [O] Section Japanese
       - [O] Section Room Plan
-      - [X] Section Popup Form Brochure
-    - [X] Concept
-    - [X] Facilities
+      - [O] Section Popup Form Brochure
+    - [O] Concept:
+      - [O] Section Header
+      - [O] Section Concept 1
+      - [O] Section Concept 2
+      - [O] Section Brochure
+      - [O] Section Popup Form Brochure
+    - [O] Facilities:
+       - [O] Section Header
+       - [O] Section Gallery
+       - [O] Section Unit Plans
+       - [O] Section Brochure
+       - [O] Section Brochure popup form
     - [X] Future
     - [X] Surrounding
-    - [X] Req Brochure
+    - [O] Req Brochure
     - [X] Summary
     - [X] Disclaimer
     - [X] Advantages 1

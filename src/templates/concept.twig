@@ -1,0 +1,28 @@
+{% extends 'layouts/default.twig' %}
+{% set head_title = 'About Us' %}
+
+{% block page %}
+  <!-- header -->
+  {% include './partials/layouts/_header.twig' %}
+
+  <!-- content -->
+  <div class="tl-content" id="content-body">
+    <!-- section 1 header -->
+    {% include './partials/concept/_sec-header.twig' %}
+
+    <!-- section 2 concept 1 -->
+    {% include './partials/concept/_sec-concept-1.twig' %}
+
+    <!-- section 3 concept 2 -->
+    {% include './partials/concept/_sec-concept-2.twig' %}
+
+    <!-- section 4 brochure -->
+    {% include './partials/concept/_sec-brochure.twig' %}
+
+    <!-- section 5 brochure form -->
+    {% include './partials/unit/_sec-brochure-form.twig' %}
+  </div>
+
+  <!-- footer -->
+  {% include './partials/layouts/_footer.twig' %}
+{% endblock %}

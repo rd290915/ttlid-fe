@@ -5,16 +5,18 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: 100;
+  max-height: 100%;
+  width: 100%;
   z-index: 1100;
+  overflow-y: auto;
   background-color: rgba(0,0,0,0.7);
   transition: $transition_03s;
   transform: scale(1.5, 1.5);
   opacity: 0;
 }
-.tl-popup.in { display: flex; }
+.tl-popup.in { display: block; }
 .tl-popup.active {
-  display: flex;
+  display: block;
   transform: scale(1, 1);
   opacity: 1;
 }
@@ -29,7 +31,13 @@
 }
 .tl-popup-img-inner {
   max-width: 80%;
-  margin: 100px 0;
+  margin: 100px auto;
   text-align: center;
 }
 .tl-popup-img-show img { max-width: 100%; }
+.tl-popup-brochure-inner {
+  width: 540px;
+  padding: 50px 25px;
+  margin: 50px auto;
+  background-color: $brown;
+}

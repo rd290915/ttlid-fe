@@ -1,0 +1,32 @@
+.tl-con1 {
+  background-color: $blackLight;
+}
+.tl-con1-descr {
+  position: relative;
+  height: 600px;
+}
+.tl-con1-descr > div {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 67.5%;
+}
+.tl-con1-descr-text {
+  position: absolute;
+  right: -340px;
+  width: 435px;
+  padding: 25px;
+  background-color: $white;
+}
+.tl-con2 { background-color: $silver; }
+.tl-con1-descr.con2 > div {
+  left: auto;
+  right: 0;
+}
+.tl-con1-descr.con2 .tl-con1-descr-text {
+  right: auto;
+  left: -340px;
+  background-color: $blackLight;
+}
