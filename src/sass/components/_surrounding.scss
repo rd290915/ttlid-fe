@@ -1,0 +1,20 @@
+.tl-mk-m { background-color: $silver; }
+.tl-sd-m-title-grid { position: relative; }
+.tl-sd-m-title-grid::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  height: 1px;
+  width: 70px;
+  margin-left: -35px;
+  background-color: $brown;
+}
+.tl-mk-o { background-color: $blackLight; }
+.tl-sd-table-item-wrapper .tl-au-table-item { border: none; }
+.tl-sd-table-item-wrapper > div:nth-child(2) { padding: 15px 0; }
+.tl-sd-table-item-value {
+  padding: 5px 0 ;
+  color: $white;
+}

@@ -41,3 +41,12 @@
   margin: 50px auto;
   background-color: $brown;
 }
+.tl-popup-video-inner {
+  height: 500px;
+  max-width: 80%;
+  margin: 50px auto;
+}
+.tl-popup-video-inner iframe {
+  height: 100% !important;
+  width: 100% !important;
+}

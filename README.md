@@ -60,10 +60,24 @@
        - [O] Section Unit Plans
        - [O] Section Brochure
        - [O] Section Brochure popup form
-    - [X] Future
-    - [X] Surrounding
+    - [O] Future:
+      - [O] Section Header
+      - [O] Section Marker
+      - [O] Section Brochure
+      - [O] Section Brochure popup form
+    - [O] Surrounding:
+      - [O] Section Header
+      - [O] Section Marker
+      - [O] Section Our
+      - [O] Section Future
+      - [O] Section Brochure
+      - [O] Section Brochure popup form
     - [O] Req Brochure
-    - [X] Summary
+    - [Dev] Summary:
+      - [O] Section Header
+      - [X] Section Summaries
+      - [O] Section Brochure
+      - [O] Section Brochure popup form
     - [X] Disclaimer
     - [X] Advantages 1
     - [X] Advantages 2
@@ -71,3 +85,13 @@
 - Fix Bugs:
   - [O] Height landscape dan unit plan disamakan sesuai mockups
   - [O] Fix menu hedaer pada resolusi dibawah 1280
+
+- Noted:
+  - [X] Revisi Header
+  - [X] Revisi footer
+  - [X] Buat halaman home untuk tgl 21
+  - [O] Video dibuat popup ketika diklik
+  - [O] Buat halman About revisi
+  - [Dev] Kelarin semua layouts
+  - [O] Forent dibuat open new tab
+  - [O] Buat default line-height: 1.3em;

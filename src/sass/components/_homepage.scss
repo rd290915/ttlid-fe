@@ -77,6 +77,23 @@
   max-width: 65%;
   height: 500px;
 }
+.tl-home-vid-video a {
+  display: flex;
+  position: relative;
+  height: 100%;
+  cursor: pointer;
+}
+.tl-home-vid-video a::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+  background-color: transparent;
+}
 .tl-home-vid-video iframe {
   height: 100% !important;
   width: 100% !important;

@@ -1,0 +1,13 @@
+.tl-au { background-color: $blackLight; }
+.tl-au-table-item {
+  padding: 15px;
+  background-color: $black;
+  border: 1px solid $white;
+  text-align: center;
+  font-size: 16px;
+  color: $white;
+}
+.tl-au-table-item.bg-brown {
+  background-color: $brown;
+  font-family: $OpenSansBold;
+}
