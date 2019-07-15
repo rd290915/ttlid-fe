@@ -1,0 +1,18 @@
+.tl-footer.sc-2 { padding: 15px 0; }
+.tl-footer.sc-2 .tl-container-fluid {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.tl-footer.sc-2 .tl-footer-logo,
+.tl-footer.sc-2 .tl-footer-sosmed {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+.tl-footer-2-menu-item {
+  padding: 0 30px;
+  border-right: 1px solid $brown;
+}
+.tl-footer-2-menu-item:last-child {
+  padding-right: 0;
+  border-right: none;
+}

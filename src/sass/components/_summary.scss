@@ -1,0 +1,19 @@
+.tl-sm-sm { background-color: $blackLight; }
+.tl-sm-sm-downloads-item {
+  padding: 15px;
+  border-bottom: 1px solid $black;
+  color: $white;
+  transition: $transition_03s;
+}
+.tl-sm-sm-downloads-item:hover { background-color: $black; }
+.tl-sm-sm-downloads-item-name {
+  max-width: 85%;
+  padding-right: 15px;
+}
+.tl-sm-sm-downloads-item-button {
+  display: block;
+  cursor: pointer;
+  transition: $transition_03s;
+}
+.tl-sm-sm-downloads-item-button:hover { color: $brown; }
+.tl-sm-sm-downloads-item-button > i { margin-right: 5px; }

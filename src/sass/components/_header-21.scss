@@ -1,0 +1,9 @@
+.tl-header.sc-2,
+.tl-header.sc-2 > .tl-header-inner { height: 80px; }
+.tl-header.sc-2 .tl-header-button-wrapper,
+.tl-header.sc-2 .tl-header-menu { height: 100%; }
+.tl-header.sc-2 .tl-header-button-wrapper { padding-right: 30px; }
+.tl-header.sc-2 .tl-header-button-cu,
+.tl-header.sc-2 .tl-header-button-fr { height: 50px; }
+.tl-header.sc-2 .tl-header-menu > a:hover::before,
+.tl-header.sc-2 .tl-header-menu > a.active::before { top: 10px; }

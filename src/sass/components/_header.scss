@@ -1,5 +1,5 @@
 .tl-header,
-.tl-header-inner { height: 80px; }
+.tl-header-inner { height: 95px; }
 .tl-header-inner {
   position: fixed;
   top: 0;
@@ -29,26 +29,35 @@
 .tl-header.tl-header.bg-white .tl-header-logo > a.logo-black { opacity: 1; }
 .tl-header.tl-header.bg-black .tl-header-logo > a.logo-white { opacity: 1; }
 .tl-header-menu-wrapper,
-.tl-header-button-wrapper { height: 100%; }
+.tl-header-button-wrapper {
+  height: 45%;
+  flex-basis: 100%;
+  max-width: 100%;
+}
 .tl-header-menu-wrapper {
+  height: 100%;
   flex-basis: 87%;
   max-width: 87%;
 }
 .tl-header-menu {
-  height: 100%;
-  margin-right: 50px;
+  height: 55%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding-right: 30px;
   overflow-x: auto;
 }
+.tl-header-menu.top { height: 100%; }
 .tl-header-menu > a {
   position: relative;
   height: 100%;
-  padding: 0 10px;
+  padding: 0 15px;
   font-family: $TrajanProBold;
   font-size: 14px;
   color: $white;
   transition: $transition_03s;
   cursor: pointer;
 }
+.tl-header-menu.top > a { font-size: 12px; }
 .tl-header.bg-white .tl-header-menu > a { color: $black; }
 .tl-header.bg-black .tl-header-menu > a { color: $white; }
 .tl-header-menu > a::before {
@@ -70,13 +79,15 @@
 .tl-header.bg-black .tl-header-menu > a::before { background-color: $white; }
 .tl-header-menu > a:hover::before,
 .tl-header-menu > a.active::before {
-  top: 10px;
+  top: 5px;
   opacity: 1;
 }
 .tl-header-button-cu,
 .tl-header-button-fr {
-  height: 50%;
+  height: 100%;
   width: 160px;
+  margin: 0 1px;
+  box-shadow: inset 0 0 7.5px $white;
   font-size: 14px;
   color: $white;
 }
@@ -86,5 +97,5 @@
 }
 .tl-header-button-fr {
   background-color: #674b2f;
-  border-top: .5px solid $black;
+  font-family: $KozukaMinchoBold;
 }

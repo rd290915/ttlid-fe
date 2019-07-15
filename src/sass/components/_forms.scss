@@ -12,7 +12,8 @@
   border: 1.25px solid $black;
   color: $black;
 }
-.tl-button.btn-black:hover {
+.tl-button.btn-black:hover,
+.tl-button.btn-black.active {
   background-color: $black;
   color: $white;
 }
@@ -20,7 +21,8 @@
   border: 1.25px solid $white;
   color: $white;
 }
-.tl-button.btn-white:hover {
+.tl-button.btn-white:hover,
+.tl-button.btn-white.active {
   background-color: $white;
   color: $black;
 }
@@ -28,9 +30,20 @@
   border: 1.25px solid $brown;
   color: $brown;
 }
-.tl-button.btn-brown:hover {
+.tl-button.btn-brown:hover,
+.tl-button.btn-brown.active {
   background-color: $brown;
   color: $white;
+}
+.tl-button.btn-black-light {
+  background-color: $blackLight;
+  border: 1.25px solid $white;
+  color: $white;
+}
+.tl-button.btn-black-light:hover,
+.tl-button.btn-black-light.active {
+  background-color: $white;
+  color: $blackLight;
 }
 .tl-field-chekbox {
   display: flex;

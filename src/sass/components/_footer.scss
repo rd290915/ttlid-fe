@@ -1,5 +1,10 @@
 .tl-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   padding: 35px 0;
+  z-index: 1000;
   background-color: $black;
 }
 .tl-footer-to-top {

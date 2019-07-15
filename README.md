@@ -73,25 +73,31 @@
       - [O] Section Brochure
       - [O] Section Brochure popup form
     - [O] Req Brochure
-    - [Dev] Summary:
+    - [O] Summary:
       - [O] Section Header
-      - [X] Section Summaries
+      - [O] Section Summaries
       - [O] Section Brochure
       - [O] Section Brochure popup form
-    - [X] Disclaimer
-    - [X] Advantages 1
-    - [X] Advantages 2
+    - [O] Disclaimer
+    - [98%] Advantages 1:
+      - [O] Section Header
+      - [O] Section Team
+      - [O] Section Design
+      - [O] Section Premium
+      - [O] Section Luxury
+      - [O] Efek scrolling to section pada menu header
+    - [Dev] Advantages 2:
+      - [Dev] Section Header
+      - [X] Section Security
+      - [X] Section Revolution
+      - [X] Section Ultimate
+      - [X] Section Size
+      - [O] Efek scrolling to section pada menu header
 
 - Fix Bugs:
-  - [O] Height landscape dan unit plan disamakan sesuai mockups
-  - [O] Fix menu hedaer pada resolusi dibawah 1280
 
 - Noted:
-  - [X] Revisi Header
-  - [X] Revisi footer
-  - [X] Buat halaman home untuk tgl 21
-  - [O] Video dibuat popup ketika diklik
-  - [O] Buat halman About revisi
+  - [O] Header tgl 21
+  - [O] Footer tgl 21
+  - [O] Home tgl 21
   - [Dev] Kelarin semua layouts
-  - [O] Forent dibuat open new tab
-  - [O] Buat default line-height: 1.3em;

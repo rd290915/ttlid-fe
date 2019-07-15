@@ -25,9 +25,11 @@
   font-size: 16px;
   color: white;
 }
+.tl-home-header-text.no-bold { font-family: $TrajanPro; }
 .tl-home-gallery { background-color: $blackLight; }
 .tl-home-gallery.bg-white { background-color: $white; }
 .tl-home-gallery-list { margin-bottom: 50px; }
+.tl-home-gallery-list.no-gap { margin-bottom: 0; }
 .tl-home-gallery-list.no-gap { margin-bottom: 0; }
 .tl-home-gallery-list-item {
   padding-top: 15px;
@@ -41,6 +43,7 @@
 .tl-home-gallery-list-item > a > div { transition: $transition_03s; }
 .tl-home-gallery-list-item > a:hover > div { transform: scale(1.25, 1.25) }
 .tl-home-fac-list { margin-bottom: 50px; }
+.tl-home-fac-list.no-gap { margin-bottom: 0; }
 .tl-home-fac-list-item-thumb {
   position: relative;
   height: 230px;
@@ -135,7 +138,8 @@
 }
 .tl-home-vid-descr-text > p {
   margin-bottom: 25px;
-  font-size: 16px;
+  font-family: $TrajanProBold;
+  font-size: 36px;
   color: $white;
 }
 .tl-home-vid-descr-text > p:last-child { margin-bottom: 0; }

@@ -1,4 +1,6 @@
 html { font-family: $OpenSans; }
+.tl-content { padding-bottom: 106px; }
+.tl-content.sec-2 { padding-bottom: 81px; }
 .tl-container {
   padding-left: 110px;
   padding-right: 110px;
@@ -55,7 +57,8 @@ html { font-family: $OpenSans; }
   width: 80%;
   background-color: $brown;
 }
-.tl-sec-title.bordered-top::before {
+.tl-sec-title.bordered-top::before,
+.tl-sec-title.bordered-bottom::before {
   content: '';
   display: block;
   position: absolute;
@@ -65,6 +68,10 @@ html { font-family: $OpenSans; }
   width: 70px;
   margin-left: -35px;
   background-color: $brown;
+}
+.tl-sec-title.bordered-bottom::before {
+  top: auto;
+  bottom: -25px;
 }
 .tl-header-text { font-size: 16px; }
 .text-brown { color: $brown; }
@@ -82,3 +89,4 @@ html { font-family: $OpenSans; }
 .font-size-34px { font-size: 34px; }
 .font-size-36px { font-size: 36px; }
 .trajanpro-bold { font-family: $TrajanProBold; }
+.opensans-bold { font-family: $OpenSansBold; }

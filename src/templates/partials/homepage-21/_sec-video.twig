@@ -1,0 +1,53 @@
+<div class="tl-home-vid" id="home-video">
+  <div class="tl-home-vid-row display-flex">
+    <!-- video -->
+    <div class="tl-home-vid-video">
+      <a j-direction="popup-show" j-popup-target="popup-video">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ycYLPbtxU1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </a>
+    </div>
+
+    <!-- descr -->
+    <div class="tl-home-vid-descr tl-sec-padding-y">
+      <!-- title -->
+      <div class="tl-home-vid-descr-title-wrapper display-flex align-items-center">
+        <img src="../../../img/images/japan-flag.png" class="mr-10" alt="Flag">
+        <h2 class="tl-home-vid-descr-title tl-sec-title bordered-bottom text-white gap-0">
+          ALL JAPANESE PERFECTION
+        </h2>
+      </div>
+
+      <!-- descr text -->
+      <div class="tl-home-vid-descr-text mb-25">
+        <p class="text-center">Get our units experience in 360° Video</p>
+      </div>
+
+      <!-- button -->
+      <div class="tl-home-vid-button">
+        <a
+          class="tl-button btn-white"
+          j-direction="popup-show"
+          j-popup-target="popup-video">
+          Explore
+        </a>
+      </div>
+    </div>
+
+    <!-- popup video -->
+    <div
+      class="tl-popup"
+      id="popup-video"
+      j-popup-place="popup-video">
+      <div class="tl-popup-video-inner position-relative">
+        <a
+          class="tl-popup-close"
+          j-direction="popup-hide"
+          j-popup-hide-target="popup-video">
+          <i class="fa fa-times"></i>
+        </a>
+
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ycYLPbtxU1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>

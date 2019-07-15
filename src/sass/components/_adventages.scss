@@ -1,0 +1,53 @@
+.tl-at-header { background-color: $black; }
+.tl-at-header-inner { height: 400px; }
+.tl-at-menu-1 { margin: 75px 0; }
+.tl-at-menu-2-item {
+  height: 140px;
+  padding: 15px;
+  background-color: $blackLight;
+  font-family: $TrajanProBold;
+  text-align: center;
+  font-size: 16px;
+  color: $white;
+  transition: $transition_03s;
+}
+.tl-at-menu-2-item:hover,
+.tl-at-menu-2-item.active { background-color: $blueNavy; }
+.tl-at-ds { background-color: $blackLight; }
+.tl-at-ds-ci-title {
+  margin-bottom: 15px;
+  font-family: $TrajanProBold;
+  text-align: center;
+  font-size: 16px;
+  color: $white;
+}
+.tl-at-ds-ci-content {
+  padding: 30px 20px;
+  background-color: $whiteSoft;
+  border-radius: 2.5px;
+}
+.tl-at-ds-ci-ct-title_img {
+  height: 70px;
+  margin-bottom: 15px;
+}
+.tl-at-ds-ci-ct-title_img img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.tl-at-ds-ci-thumb {
+  height: 170px;
+  margin-bottom: 25px;
+}
+.tl-at-ds-ci-descr {
+  height: 200px;
+  overflow: hidden;
+}
+.tl-at-premium { background-color: $blackLight; }
+.tl-at-pr-marker img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.tl-at-luxury { background-color: $black; }
+.tl-at-lx-img,
+.tl-at-lx-descr { height: 540px; }
+.tl-at-lx-descr { padding: 50px; }

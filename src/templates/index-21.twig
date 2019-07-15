@@ -1,0 +1,37 @@
+{% extends 'layouts/default.twig' %}
+{% set head_title = 'Home' %}
+
+{% block page %}
+  <!-- header -->
+  {% include './partials/layouts/_header-21.twig' %}
+
+  <!-- content -->
+  <div class="tl-content sec-2" id="content-body">
+    <!-- section 1 header -->
+    {% include './partials/homepage-21/_sec-header.twig' %}
+
+    <!-- section 2 gallery -->
+    {% include './partials/homepage-21/_sec-gallery.twig' %}
+
+    <!-- section 3 facilities -->
+    {% include './partials/homepage-21/_sec-facilities.twig' %}
+    
+    <!-- section 4 landscape -->
+    {% include './partials/homepage-21/_sec-landscape.twig' %}
+
+    <!-- section 5 video -->
+    {% include './partials/homepage-21/_sec-video.twig' %}
+
+    <!-- section 6 unit plan -->
+    {% include './partials/homepage-21/_sec-plan.twig' %}
+
+    <!-- section 7 about -->
+    {% include './partials/homepage-21/_sec-about.twig' %}
+
+    <!-- section 8 location -->
+    {% include './partials/homepage-21/_sec-location.twig' %}
+  </div>
+
+  <!-- footer -->
+  {% include './partials/layouts/_footer-21.twig' %}
+{% endblock %}
