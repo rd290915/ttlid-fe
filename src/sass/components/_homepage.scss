@@ -20,6 +20,7 @@
   background-color: $black;
 }
 .tl-home-header-tb { height: 100%; }
+.tl-home-header-tb > div { position: relative; }
 .tl-home-header-text {
   margin-bottom: 35px;
   font-size: 16px;
@@ -141,6 +142,10 @@
   font-family: $TrajanProBold;
   font-size: 36px;
   color: $white;
+}
+.tl-home-vid-descr-text.small-text > p {
+  font-family: $TrajanPro;
+  font-size: 13px;
 }
 .tl-home-vid-descr-text > p:last-child { margin-bottom: 0; }
 .tl-home-au-stat { padding: 0 210px; }

@@ -96,8 +96,10 @@
 
 - Fix Bugs:
 
+- Request:
+  - [O] Di Top Image ditambahkan scroll effect yang "Scroll Button, #7" (https://codepen.io/nxworld/pen/OyRrGy)
+  - [O] Untuk Menu Top, Coba pakai efek ini "Under Line Fill" (https://codepen.io/maheshambure21/pen/QwXaRw)
+  - [O] untuk menu top pas slide seperti ga usah ada yg menu bacground putih, Jadi kalo scroll ke bawah ga usah ada menu, tapi kalo scroll ke atas menu top muncul lagi.
+
 - Noted:
-  - [O] Header tgl 21
-  - [O] Footer tgl 21
-  - [O] Home tgl 21
   - [Dev] Kelarin semua layouts
