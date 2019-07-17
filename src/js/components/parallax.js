@@ -1,0 +1,1 @@
+$('[j-direction="parallax"]').parallaxBackground()

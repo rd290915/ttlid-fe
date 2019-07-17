@@ -16,10 +16,8 @@ var stickyScroll = {
     var scroll = this.window.scrollTop()
 
     if(scroll > this.position) {
-      console.log('scrollDown')
       this.header.removeClass('show')
     } else {
-      console.log('scrollUp')
       this.header.addClass('show')
     }
 

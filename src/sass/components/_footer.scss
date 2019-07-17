@@ -24,17 +24,22 @@
 }
 .tl-footer-logo,
 .tl-footer-sosmed {
-  flex-basis: 17%;
-  max-width: 17%;
+  flex-basis: 20%;
+  max-width: 20%;
 }
+.tl-footer-logo > a {
+  display: flex;
+  align-items: center;
+}
+.tl-footer-logo > a > img { width: 100%; }
 .tl-footer-cr {
-  font-family: $TrajanPro;
-  font-size: 12px;
+  font-family: TrajanPro;
+  font-size: 10px;
   color: white;
 }
 .tl-footer-cr > span { text-decoration: underline; }
 .tl-footer-sosmed > a {
-  font-size: 28px;
+  font-size: 24px;
   color: white;
 }
 .tl-footer-sosmed > a:last-child {

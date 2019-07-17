@@ -51,9 +51,9 @@
 .tl-header-menu > a {
   position: relative;
   height: 100%;
-  padding: 0 15px;
+  padding: 0 12.5px;
   font-family: $TrajanProBold;
-  font-size: 14px;
+  font-size: 13px;
   color: $white;
   transition: $transition_03s;
   cursor: pointer;
@@ -87,10 +87,7 @@
   font-size: 14px;
   color: $white;
 }
-.tl-header-button-cu {
-  background-color: #514d3d;
-  border-bottom: .5px solid $black;
-}
+.tl-header-button-cu { background-color: #514d3d; }
 .tl-header-button-fr {
   background-color: #674b2f;
   font-family: $KozukaMinchoBold;

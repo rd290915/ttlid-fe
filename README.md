@@ -96,10 +96,13 @@
 
 - Fix Bugs:
 
-- Request:
-  - [O] Di Top Image ditambahkan scroll effect yang "Scroll Button, #7" (https://codepen.io/nxworld/pen/OyRrGy)
-  - [O] Untuk Menu Top, Coba pakai efek ini "Under Line Fill" (https://codepen.io/maheshambure21/pen/QwXaRw)
-  - [O] untuk menu top pas slide seperti ga usah ada yg menu bacground putih, Jadi kalo scroll ke bawah ga usah ada menu, tapi kalo scroll ke atas menu top muncul lagi.
+- Revisi:
+  - [X] [Homepage21] Ubah thumbnail video menjadi foto orang dengan VR
+  - [X] [Homepage21] Atur tinggi sesuai layout
+  - [X] [Homepage21] Atur panjang button pada video
 
 - Noted:
+  - [X] Fokus responsive, terutama homepage 21
+  - [X] Masukan popup brochure pada homepage
   - [Dev] Kelarin semua layouts
+  - [X] Di Laptop mas bobby footer masih berantakan

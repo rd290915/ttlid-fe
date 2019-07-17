@@ -22,8 +22,8 @@
 .tl-home-header-tb { height: 100%; }
 .tl-home-header-tb > div { position: relative; }
 .tl-home-header-text {
-  margin-bottom: 35px;
-  font-size: 16px;
+  margin-bottom: 140 px;
+  font-size: 24px;
   color: white;
 }
 .tl-home-header-text.no-bold { font-family: $TrajanPro; }
@@ -38,7 +38,7 @@
 }
 .tl-home-gallery-list-item > a {
   display: block;
-  height: 250px;
+  height: 229px;
   overflow: hidden;
 }
 .tl-home-gallery-list-item > a > div { transition: $transition_03s; }
@@ -69,8 +69,9 @@
   color: $white; 
 }
 .tl-home-fac-list-item-title {
+  font-family: $OpenSansBold;
   font-size: 16px;
-  color: $black;
+  color: #000;
 }
 .tl-home-ls-slider-item > div { background: rgba(0,0,0,0.4); }
 .tl-home-ls-slider-item.shahow-white > div { background: rgba(255,255,255,0.2); }
@@ -148,7 +149,7 @@
   font-size: 13px;
 }
 .tl-home-vid-descr-text > p:last-child { margin-bottom: 0; }
-.tl-home-au-stat { padding: 0 210px; }
+.tl-home-au-stat { padding: 0 150px; }
 .tl-home-au-stat-item {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -216,11 +217,13 @@
   font-family: $OpenSansBold;
   font-size: 48px;
   color: $grey;
+  line-height: 1;
 }
 .tl-home-au-stat-item-descr > .valuee > span { font-size: 20px; }
 .tl-home-au-stat-item-descr > .titlee {
   font-size: 14px;
   color: $grey;
+  line-height: 1;
 }
 .tl-home-au-stat-item > .wrapp.sqm .tl-home-au-stat-item-descr > .titlee { width: 100px; }
 .tl-home-au-stat-item > .wrapp.condominium .tl-home-au-stat-item-descr > .titlee,
