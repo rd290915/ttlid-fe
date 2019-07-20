@@ -48,6 +48,32 @@
   max-width: 100%;
 }
 .tl-at-luxury { background-color: $black; }
+.tl-at-lx-item > div {
+  flex-basis: 50%;
+  max-width: 50%;
+}
 .tl-at-lx-img,
 .tl-at-lx-descr { height: 540px; }
 .tl-at-lx-descr { padding: 50px; }
+.tl-at-sc-descr-images {
+  position: relative;
+  height: 230px;
+}
+.tl-at-sc-descr-images > div:first-child { height: 100%; }
+.tl-at-sc-descr-images > div:first-child > img,
+.tl-at-sc-descr-images > div:first-child > img { max-height: 100%; }
+.tl-at-sc-descr-images > div:last-child {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  height: 180px;
+  margin-top: -90px;
+  z-index: 1;
+}
+.tl-at-revolution { background: $blackLight; }
+.tl-at-rv-image img { max-width: 100%; }
+.tl-at-ultimate { background: $black; }
+.tl-at-um-d-i-image img { max-width: 100%; }
+.tl-at-sz-image-1 img,
+.tl-at-sz-d2-image img,
+.tl-at-sz-image-2 img { max-width: 100%; }

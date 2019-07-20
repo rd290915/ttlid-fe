@@ -1,4 +1,7 @@
-.tl-home-header { line-height: 0; }
+.tl-home-header {
+  line-height: 0;
+  overflow: hidden;
+}
 .tl-home-header img {
   width: 100%;
 }
@@ -149,6 +152,10 @@
   font-size: 13px;
 }
 .tl-home-vid-descr-text > p:last-child { margin-bottom: 0; }
+.tl-home-vid-button {
+  width: 200px;
+  margin: 0 auto;
+}
 .tl-home-au-stat { padding: 0 150px; }
 .tl-home-au-stat-item {
   margin-top: 15px;
@@ -230,5 +237,12 @@
 .tl-home-au-stat-item > .wrapp.office .tl-home-au-stat-item-descr > .titlee { width: 110px; }
 #home-brochure .tl-sec-title { font-size: 24px; }
 .tl-home-lc { background-color: $blackLight; }
-.tl-home-lc-map { text-align: center; }
+.tl-home-lc-map {
+  height: 400px;
+  text-align: center;
+}
+.tl-home-lc-map iframe {
+  height: 100% !important;
+  width: 100% !important;
+}
 .tl-home-lc-map img { max-width: 100%; }

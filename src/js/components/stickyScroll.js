@@ -6,22 +6,18 @@ var stickyScroll = {
   dom: function() {
     this.window = $(window)
     this.header = $('#header')
-    this.position = this.window.scrollTop();
   },
   eventList: function() {
-    this.stickyScroll()
-    this.window.on('scroll', this.stickyScroll.bind(this))
+    this.stickyScroll('stop')
+    this.window.on('scroll', $.debounce(100, true, this.stickyScroll.bind(this, 'scroll')))
+    this.window.on('scroll', $.debounce(100, this.stickyScroll.bind(this, 'stop')))
   },
-  stickyScroll: function() {
-    var scroll = this.window.scrollTop()
-
-    if(scroll > this.position) {
-      this.header.removeClass('show')
-    } else {
+  stickyScroll: function(params) {
+    if (params === 'stop') {
       this.header.addClass('show')
+    } else if (params === 'scroll') {
+      this.header.removeClass('show')
     }
-
-    this.position = scroll
   }
 }
 

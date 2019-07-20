@@ -8,6 +8,8 @@
 @import 'vendor/normalize';
 @import '../../node_modules/slick-carousel/slick/slick.scss';
 @import '../../node_modules/slick-carousel/slick/slick-theme.scss';
+@import 'vendor/fireflies';
+@import 'vendor/coin-slider-styles';
 
 // Base
 @import 'base/print';
@@ -25,6 +27,9 @@
 
 // Components
 @import 'components/**/*.scss';
+
+// Responsive
+@import 'responsive/**/*.scss';
 
 /**
  * Custom styles

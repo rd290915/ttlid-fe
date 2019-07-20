@@ -5,6 +5,7 @@ html {
 .display-flex {
   display: flex;
   &.flex-wrap { flex-wrap: wrap; }
+  &.flex-wrap-reverse { flex-wrap: wrap-reverse; }
   &.justify-content-center { justify-content: center; }
   &.justify-content-between { justify-content: space-between; }
   &.justify-content-around { justify-content: space-around; }

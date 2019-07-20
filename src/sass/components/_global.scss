@@ -17,11 +17,16 @@ html { font-family: $OpenSans; }
   padding-top: 90px;
   padding-bottom: 90px;
 }
-.tl-sec-title {
+.tl-sec-title,
+.tl-sec-title-small {
   position: relative;
   margin-bottom: 50px;
   font-family: $TrajanProBold;
   font-size: 36px;
+}
+.tl-sec-title-small {
+  font-family: $OpenSansBold;
+  font-size: 18px;
 }
 .tl-sec-title.bordered { padding-bottom: 25px; }
 .tl-sec-title.bordered::before {
@@ -88,5 +93,7 @@ html { font-family: $OpenSans; }
 .font-size-32px { font-size: 32px; }
 .font-size-34px { font-size: 34px; }
 .font-size-36px { font-size: 36px; }
+.trajanpro { font-family: $TrajanPro; }
 .trajanpro-bold { font-family: $TrajanProBold; }
+.opensans { font-family: $OpenSans; }
 .opensans-bold { font-family: $OpenSansBold; }

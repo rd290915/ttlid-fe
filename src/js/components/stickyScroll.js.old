@@ -6,18 +6,22 @@ var stickyScroll = {
   dom: function() {
     this.window = $(window)
     this.header = $('#header')
-    this.body = $('#content-body')
+    this.position = this.window.scrollTop();
   },
   eventList: function() {
     this.stickyScroll()
     this.window.on('scroll', this.stickyScroll.bind(this))
   },
   stickyScroll: function() {
-    if (this.window.scrollTop() > 50) {
-      this.header.removeClass('bg-black').addClass('bg-white')
+    var scroll = this.window.scrollTop()
+
+    if(scroll > this.position) {
+      this.header.removeClass('show')
     } else {
-      this.header.removeClass('bg-white').addClass('bg-black')
+      this.header.addClass('show')
     }
+
+    this.position = scroll
   }
 }
 

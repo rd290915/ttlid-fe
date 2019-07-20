@@ -1,108 +1,51 @@
 - Developing:
   - Partials:
-    - [X] Ubah image2
-    - [X] Set link pada setiap link a href
-    - [O] Header:
-      - [O] Buat style backround black
-      - [O] Buat style background white
-      - [O] Buat efek sticky scrool
-    - [O] Footer:
-      - [O] Buat efek to top
-    - [O] Buat auto height pada content wrapper
   - Pages:
-    - [98%] Homepage:
-      - [O] Section Header
-      - [O] Section Gallery:
-        - [O] Show popup image view
-      - [O] Section Our Facilities
-      - [O] Section Landscape and Design:
-        - [O] Buat carousel slick
-      - [O] Section Youtube:
-        - [O] Embed youtube
-      - [O] Section Unit Plan
-      - [O] Section About Us
-      - [O] Section Download Brochure
-      - [98%] Section Location:
-        - [X] Integrate GMaps
-    - [O] About Us
-    - [98%] Contact Us:
-      - [O] Buat JS efek label up down
-      - [X] Integrate Gmaps
-    - [O] Tower Tour
-      - [O] Section Header
-      - [O] Section Video
-      - [O] Section Facilities
-      - [O] Section Actual
-      - [O] Section Brochure
-    - [98%] Landscape and Design
-      - [O] Section Header
-      - [O] Section Landscape
-      - [O] Section Gallery
-      - [98%] Section Design:
-        - [X] Buat slick slider
-      - [O] Section Join
-    - [O] Unit Plans:
-      - [O] Section Header
-      - [O] Section Living
-      - [O] Section Luxurious
-      - [O] Section Japanese
-      - [O] Section Room Plan
-      - [O] Section Popup Form Brochure
-    - [O] Concept:
-      - [O] Section Header
-      - [O] Section Concept 1
-      - [O] Section Concept 2
-      - [O] Section Brochure
-      - [O] Section Popup Form Brochure
-    - [O] Facilities:
-       - [O] Section Header
-       - [O] Section Gallery
-       - [O] Section Unit Plans
-       - [O] Section Brochure
-       - [O] Section Brochure popup form
-    - [O] Future:
-      - [O] Section Header
-      - [O] Section Marker
-      - [O] Section Brochure
-      - [O] Section Brochure popup form
-    - [O] Surrounding:
-      - [O] Section Header
-      - [O] Section Marker
-      - [O] Section Our
-      - [O] Section Future
-      - [O] Section Brochure
-      - [O] Section Brochure popup form
-    - [O] Req Brochure
-    - [O] Summary:
-      - [O] Section Header
-      - [O] Section Summaries
-      - [O] Section Brochure
-      - [O] Section Brochure popup form
-    - [O] Disclaimer
-    - [98%] Advantages 1:
-      - [O] Section Header
-      - [O] Section Team
-      - [O] Section Design
-      - [O] Section Premium
-      - [O] Section Luxury
-      - [O] Efek scrolling to section pada menu header
-    - [Dev] Advantages 2:
-      - [Dev] Section Header
-      - [X] Section Security
-      - [X] Section Revolution
-      - [X] Section Ultimate
-      - [X] Section Size
-      - [O] Efek scrolling to section pada menu header
 
 - Fix Bugs:
 
+- Responsive:
+  - [O] Homepage
+  - [O] About Us
+  - [O] Contact Us
+  - [O] Disclaimer
+  - [O] Facilities
+  - [O] Future
+  - [O] Summary
+  - [O] Surrounding
+  - [O] Unit Plans
+  - [O] Adventages 1
+  - [O] Adventages 2
+  - [O] Concept
+  - [O] Landscape
+  - [O] Tower Tour
+
 - Revisi:
-  - [X] [Homepage21] Ubah thumbnail video menjadi foto orang dengan VR
-  - [X] [Homepage21] Atur tinggi sesuai layout
-  - [X] [Homepage21] Atur panjang button pada video
+  - [O] [Responsive] Header page dibuat 16px
+  - [O] [Responsive] Title header 22px
+  - [O] [Responsive] Popup dibuat dibawah header navbar
+  - [O] [Responsive] Height image header navbar dibuat 35px
+  - [O] [Responsive] font-size button bahasa jepang 14px
+  - [O] [Responsive] Button jepang right diubah menjadi 67px
+  - [O] [Responsive] Facilities, descr dibuat lebih pendek
+  - [O] [Responsive] VR descr dibuat font-size 28px
+  - [O] [Responsive]  About us, thumbnail dibuat lebih pendek
+  - [O] [Responsive] Location dibuat responsive, marker dibuat terlihat
+  - [O] [Responsive] Footer dibuat trajan-pro
+  - [O] [Responsive] Popup panjangnya dibuat seperti header
+
+- Request:
 
 - Noted:
-  - [X] Fokus responsive, terutama homepage 21
   - [X] Masukan popup brochure pada homepage
   - [Dev] Kelarin semua layouts
-  - [X] Di Laptop mas bobby footer masih berantakan
+
+- File diubah:
+ - Homepage - Gallery
+ - Homepage - Brochure
+ - Layout - Header
+ - Layout - Header21
+ - Layout - Footer
+ - Contact Us - Form
+ - Tower Tour - Gallery
+ - Adventages 1 - First Rate

@@ -29,6 +29,16 @@
 }
 .tl-header.tl-header.bg-white .tl-header-logo > a.logo-black { opacity: 1; }
 .tl-header.tl-header.bg-black .tl-header-logo > a.logo-white { opacity: 1; }
+.tl-header-navicon {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  margin-top: -18px;
+  z-index: 1100;
+  font-size: 24px;
+  color: $white;
+}
 .tl-header-menu-wrapper,
 .tl-header-button-wrapper {
   height: 45%;
@@ -53,7 +63,7 @@
   height: 100%;
   padding: 0 12.5px;
   font-family: $TrajanProBold;
-  font-size: 13px;
+  font-size: 14px;
   color: $white;
   transition: $transition_03s;
   cursor: pointer;
