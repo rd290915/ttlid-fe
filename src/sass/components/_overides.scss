@@ -5,3 +5,24 @@
   border-radius: 100%;
 }
 .slick-dots li.slick-active button { background-color: $white; }
+.slick-prev-custom,
+.slick-next-custom {
+  display: block;
+  position: absolute;
+  top: 50%;
+  height: auto;
+  width: auto;
+  margin-top: -36px;
+  transform: translate(0, 0);
+  font-size: 70px;
+  color: $brown;
+  line-height: 1;
+}
+.slick-prev-custom {
+  right: 100%;
+  margin-right: 130px;
+}
+.slick-next-custom {
+  left: 100%;
+  margin-left: 130px;
+}
