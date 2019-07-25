@@ -30,6 +30,7 @@
   color: white;
 }
 .tl-home-header-text.no-bold { font-family: $TrajanPro; }
+.tl-home-header-button { margin-top: 25px; }
 .tl-home-gallery { background-color: $blackLight; }
 .tl-home-gallery.bg-white { background-color: $white; }
 .tl-home-gallery-list { margin-bottom: 50px; }
@@ -46,6 +47,7 @@
 }
 .tl-home-gallery-list-item > a > div { transition: $transition_03s; }
 .tl-home-gallery-list-item > a:hover > div { transform: scale(1.25, 1.25) }
+.tl-home-galler-button { margin-top: 50px; }
 .tl-home-fac-list { margin-bottom: 50px; }
 .tl-home-fac-list.no-gap { margin-bottom: 0; }
 .tl-home-fac-list-item-thumb {

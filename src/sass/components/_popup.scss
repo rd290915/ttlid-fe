@@ -14,9 +14,9 @@
   transform: scale(1.5, 1.5);
   opacity: 0;
 }
-.tl-popup.in { display: block; }
+.tl-popup.in { display: flex; }
 .tl-popup.active {
-  display: block;
+  display: flex;
   transform: scale(1, 1);
   opacity: 1;
 }
@@ -44,6 +44,7 @@
 .tl-popup-video-inner {
   height: 500px;
   max-width: 80%;
+  width: 80%;
   margin: 50px auto;
 }
 .tl-popup-video-inner iframe {

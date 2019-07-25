@@ -15,8 +15,10 @@ var sidebarShow = {
     this.sidebarStatus = !this.sidebarStatus
 
     if (this.sidebarStatus) {
+      this.btn.html('<i class="fa fa-times"></i>')
       this.place.addClass('show')
     } else {
+      this.btn.html('<i class="fa fa-navicon"></i>')
       this.place.removeClass('show')
     }
   }

@@ -1,10 +1,13 @@
 <div class="tl-home-vid" id="home-video">
   <div class="tl-home-vid-row display-flex">
     <!-- video -->
-    <div class="tl-home-vid-video">
-      <a j-direction="popup-show" j-popup-target="popup-video">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ycYLPbtxU1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </a>
+    <!-- video -->
+    <div
+      class="tl-home-vid-video"
+      j-direction="popup-video-show"
+      j-popup-video-target="popup-video"
+      j-popup-video-embed="https://www.youtube.com/embed/Ti5ibERnPBg">
+      <div style="height: 100%; background-image: url('../../../img/images/video-vr.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover;">&nbsp;</div>
     </div>
 
     <!-- descr -->
@@ -38,17 +41,17 @@
     <!-- popup video -->
     <div
       class="tl-popup"
-      id="popup-video"
-      j-popup-place="popup-video">
+      id="popup-video-video"
+      j-popup-video-place="popup-video">
       <div class="tl-popup-video-inner position-relative">
         <a
           class="tl-popup-close"
-          j-direction="popup-hide"
-          j-popup-hide-target="popup-video">
+          j-direction="popup-video-hide"
+          j-popup-video-hide-target="popup-video">
           <i class="fa fa-times"></i>
         </a>
 
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ycYLPbtxU1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {# <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Ti5ibERnPBg?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> #}
       </div>
     </div>
   </div>
