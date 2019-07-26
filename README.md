@@ -8,13 +8,18 @@
 
 - Revisi:
   - [X] [Homepage21] Styling landscape dan unit disamakan seperti layout
-  - [O] [LandscapeAndDesign] Landscape & Design Layout, Section Interior Design belum ada panah dimana ini bisa slide
-  - [O] [Layout] [Header] Button Contact Us diletakan paling bawah
+  - [Dev] Semua halaman kecuali index, tinggi header section disamakan sesuai layout
 
 - Request:
 
 - Noted:
 
 - File diubah:
-  - Landscape and Design - Design
-  - Layout - Header (navbar)
+  - About Us: Header Content
+  - Concept: Header Content
+  - Contact Us: Header Content
+  - Facilities: Header Content
+  - Future: Header Content
+  - Landscape and Design: Header Content
+  - Summary: Header Content
+  - Unit Plans: Header Content
