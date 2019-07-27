@@ -1,11 +1,7 @@
 .tl-mk { background-color: $blackLight; }
 .tl-mk-image { height: 565px; }
 .tl-mk-map-item {
-  padding-right: 2.5px;
-  padding-left: 2.5px;
   text-align: center;
 }
-.tl-mk-map-item img {
-  max-height: 100%;
-  max-width: 100%;
-}
+.tl-mk-map-item > div.mobile { display: none; }
+.tl-mk-map-item img { max-width: 100%; }

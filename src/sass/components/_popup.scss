@@ -15,8 +15,14 @@
   opacity: 0;
 }
 .tl-popup.in { display: flex; }
+.tl-popup[j-popup-place="brochure-form"].in { display: block; }
 .tl-popup.active {
   display: flex;
+  transform: scale(1, 1);
+  opacity: 1;
+}
+.tl-popup[j-popup-place="brochure-form"].active {
+  display: block;
   transform: scale(1, 1);
   opacity: 1;
 }

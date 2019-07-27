@@ -1,5 +1,7 @@
 .tl-at-header { background-color: $black; }
 .tl-at-header-inner { height: 400px; }
+#adventages-1-header .tl-button,
+#adventages-2-header .tl-button { width: 100%; }
 .tl-at-menu-1 { margin: 75px 0; }
 .tl-at-menu-2-item {
   height: 140px;
@@ -59,17 +61,8 @@
   position: relative;
   height: 230px;
 }
-.tl-at-sc-descr-images > div:first-child { height: 100%; }
-.tl-at-sc-descr-images > div:first-child > img,
-.tl-at-sc-descr-images > div:first-child > img { max-height: 100%; }
-.tl-at-sc-descr-images > div:last-child {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  height: 180px;
-  margin-top: -90px;
-  z-index: 1;
-}
+.tl-at-sc-descr-images > div.mobile { display: none; }
+.tl-at-sc-descr-images > div img { max-width: 100%; }
 .tl-at-revolution { background: $blackLight; }
 .tl-at-rv-image img { max-width: 100%; }
 .tl-at-ultimate { background: $black; }

@@ -2,6 +2,7 @@
   line-height: 0;
   overflow: hidden;
 }
+.tl-home-header.height-fix { height: 455px; }
 .tl-home-header.hide-me { opacity: 0; }
 .tl-home-header img {
   width: 100%;
@@ -21,10 +22,12 @@
   height: 100%;
   width: 100%;
   z-index: 3;
-  background-color: $black;
+  background-color: #311f11;
 }
 .tl-home-header-tb { height: 100%; }
 .tl-home-header-tb > div { position: relative; }
+.tl-home-header-tb .tl-sec-title,
+.tl-home-header-tb .tl-sec-title.gap-less { margin-bottom: 0; }
 .tl-home-header-text {
   margin-bottom: 140 px;
   font-size: 24px;
@@ -79,7 +82,7 @@
   font-size: 16px;
   color: #000;
 }
-.tl-home-ls-slider-item > div { background: rgba(0,0,0,0.4); }
+.tl-home-ls-slider-item > div { background: rgba(35,35,35,0.7); }
 .tl-home-ls-slider-item.shahow-white > div { background: rgba(255,255,255,0.2); }
 .tl-home-ls-slider-item:not(.height-auto) .tl-container { height: 455px; }
 .tl-home-vid-video {
@@ -159,6 +162,7 @@
   width: 200px;
   margin: 0 auto;
 }
+#tower-tour-video .tl-home-vid-descr-text > p { font-family: $OpenSans; }
 .tl-home-au-stat { padding: 0 150px; }
 .tl-home-au-stat-item {
   margin-top: 15px;

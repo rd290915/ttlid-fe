@@ -13,6 +13,14 @@
 }
 .tl-mk-o { background-color: $blackLight; }
 .tl-sd-table-item-wrapper .tl-au-table-item { border: none; }
+.tl-au-table > .row > .col-lg-5 {
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+.tl-au-table > .row > .col-lg-2 {
+  flex: 0 0 10%;
+  max-width: 10%;
+}
 .tl-sd-table-item-wrapper > div:nth-child(2) { padding: 15px 0; }
 .tl-sd-table-item-value {
   padding: 5px 0 ;

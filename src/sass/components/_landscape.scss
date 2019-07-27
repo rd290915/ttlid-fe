@@ -1,0 +1,12 @@
+.tl-lad-img {
+  position: relative;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.tl-lad-img img { max-width: 100%; }
+.tl-lad-gal-list-item {
+  height: 225px;
+  flex-basis: 25%;
+  width: 25%;
+}
+.tl-lad-design { background-color: $white; }
