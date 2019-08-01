@@ -10,8 +10,6 @@
   height: 385px;
   padding-right: 30px;
   padding-left: 30px;
-  border-top: 10px solid $brown;
-  border-bottom: 10px solid $brown;
   border-radius: 10px;
 }
 .tl-up-rp-filter {
@@ -21,16 +19,19 @@
 }
 .tl-up-rp-filter-wrap { margin-bottom: 40px; }
 .tl-up-rp-filter-title { margin-right: 30px; }
-.tl-up-rp-filter-form { max-width: 76%; }
+.tl-up-rp-filter-form { max-width: 73%; }
 .tl-up-rp-filter-select { margin-right: 15px; }
 .tl-up-rp-filter-type {
   max-width: 79%;
+  padding-bottom: 5px;
   overflow-x: auto;
 }
 .tl-up-rp-filter-type-item {
   display: flex;
   align-items: center;
   height: 60px;
+  flex: 0 0 auto;
+  max-width: auto;
   padding: 7.5px 15px;
   margin-right: 7.5px;
   margin-left: 7.5px;

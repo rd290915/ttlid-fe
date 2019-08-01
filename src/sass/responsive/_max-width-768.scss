@@ -120,6 +120,12 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .tl-home-header,
+  .tl-home-header.height-fix { height: 300px; }
+  .tl-home-header img {
+    height: 100%;
+    object-fit: cover;
+  }
   .tl-home-header-text { font-size: 16px; }
   .j-scroll { display: none; }
   .tl-sec-title {

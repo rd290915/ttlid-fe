@@ -1,4 +1,18 @@
 html { font-family: $OpenSans; }
+::-webkit-scrollbar {
+  height: 7.5px;
+  width: 7.5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: $whiteSoft;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: $brown;
+}
 .tl-content { padding-bottom: 81px; }
 .tl-content.sec-2 { padding-bottom: 81px; }
 .tl-container {
