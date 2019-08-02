@@ -1,18 +1,4 @@
 html { font-family: $OpenSans; }
-::-webkit-scrollbar {
-  height: 7.5px;
-  width: 7.5px;
-}
-
-::-webkit-scrollbar-track {
-  border-radius: 5px;
-  background: $whiteSoft;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background: $brown;
-}
 .tl-content { padding-bottom: 81px; }
 .tl-content.sec-2 { padding-bottom: 81px; }
 .tl-container {
@@ -92,7 +78,10 @@ html { font-family: $OpenSans; }
   top: auto;
   bottom: -25px;
 }
-.tl-header-text { font-size: 16px; }
+.tl-header-text {
+  font-family: $TrajanPro;
+  font-size: 16px;
+}
 .text-brown { color: $brown; }
 .font-size-12px { font-size: 12px; }
 .font-size-14px { font-size: 14px; }

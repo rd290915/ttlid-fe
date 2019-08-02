@@ -29,7 +29,8 @@
 .tl-home-header-tb .tl-sec-title,
 .tl-home-header-tb .tl-sec-title.gap-less { margin-bottom: 0; }
 .tl-home-header-text {
-  margin-bottom: 140 px;
+  // margin-bottom: 140px;
+  font-family: $TrajanPro;
   font-size: 24px;
   color: white;
 }
@@ -244,12 +245,15 @@
 .tl-home-au-stat-item > .wrapp.office .tl-home-au-stat-item-descr > .titlee { width: 110px; }
 #home-brochure .tl-sec-title { font-size: 24px; }
 .tl-home-lc { background-color: $blackLight; }
-.tl-home-lc-map {
-  height: 400px;
-  text-align: center;
-}
+.tl-home-lc-map { text-align: center; }
+.tl-home-lc-map > div > div:first-child { height: 365px; }
 .tl-home-lc-map iframe {
   height: 100% !important;
   width: 100% !important;
 }
 .tl-home-lc-map img { max-width: 100%; }
+.tb-home-lc-map-title {
+  text-align: center;
+  font-size: 16px;
+  color: $white;
+}

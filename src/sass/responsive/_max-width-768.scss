@@ -31,7 +31,7 @@
     padding-right: 0;
     overflow-y: auto;
     z-index: 1100;
-    background: $blackLight;
+    background: $brown;
     transition: $transition_03s;
   }
   .tl-header-menu-wrapper.origin .tl-header-menu:first-child {
@@ -74,9 +74,11 @@
     padding: 25px;
   }
   .tl-header-menu > a {
+    display: block;
     height: auto;
     padding: 10px 0;
-    border-bottom: 1px solid $white;
+    border-bottom: none;
+    text-align: center;
     font-size: 14px;
   }
 
@@ -309,7 +311,11 @@
     max-width: 95%;
     margin: 60px auto; }
   .tl-home-fac-list-item-title { padding: 0 15px; }
-  .tl-home-lc-map { height: 275px; }
+  .tl-home-lc-map { height: auto; }
+  .tl-home-lc-map > div > div:first-child {
+    height: 250px;
+    margin-bottom: 50px;
+  }
   .tl-home-header-button,
   .tl-home-ls-button { margin-top: 25px; }
   .tl-footer-logo > a > img {

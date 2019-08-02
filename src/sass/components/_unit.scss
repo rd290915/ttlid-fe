@@ -1,6 +1,11 @@
 .tl-up-image {
   padding-right: 80px;
   padding-left: 80px;
+  text-align: center;
+}
+.tl-up-image img {
+  max-height: 100%;
+  max-width: 100%;
 }
 .tl-up-image.no-pad {
   padding-right: 0;
@@ -25,6 +30,18 @@
   max-width: 79%;
   padding-bottom: 5px;
   overflow-x: auto;
+}
+.tl-up-rp-filter-type::-webkit-scrollbar {
+  height: 7.5px;
+  width: 7.5px;
+}
+.tl-up-rp-filter-type::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: $whiteSoft;
+}
+.tl-up-rp-filter-type::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: $brown;
 }
 .tl-up-rp-filter-type-item {
   display: flex;
