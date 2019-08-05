@@ -3,7 +3,7 @@
   flex-basis: 50%;
   max-width: 50%;
 }
-.tl-cu-adrs-descr { background-color: $black; }
+.tl-cu-adrs-descr { background-color: $blackLight; }
 .tl-cu-adrs-descr-phone,
 .tl-cu-adrs-descr-full {
   font-family: $TrajanProBold;
@@ -13,9 +13,7 @@
 .tl-cu-adrs-map { overflow: hidden; }
 .tl-cu-adrs-map img { height: 100%; }
 .tl-cu-fm { background-color: $silver; }
-.tl-cu-fm-limit > div:not(.tl-limit) {
-  min-width: 20%;
-}
+.tl-cu-fm-limit > div:not(.tl-limit) { min-width: 22%; }
 .tl-cu-fm-limit > .tl-limit {
   margin: 0 25px;
   height: 45px;

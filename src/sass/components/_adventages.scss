@@ -2,7 +2,7 @@
 .tl-at-header-inner { height: 400px; }
 #adventages-1-header .tl-button,
 #adventages-2-header .tl-button { width: 100%; }
-.tl-at-menu-1 { margin: 75px 0; }
+.tl-at-menu-1 { margin: 68px 0; }
 .tl-at-menu-2-item {
   height: 140px;
   padding: 15px;
@@ -61,6 +61,14 @@
   position: relative;
   height: 230px;
 }
+.tl-at-sc-descr > .row > .tl-at-sc-descr-images.col-md-4 {
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+.tl-at-sc-descr > .row > .tl-at-sc-descr-text.col-md-4 {
+  flex: 0 0 30%;
+  max-width: 30%;
+}
 .tl-at-sc-descr-images > div.mobile { display: none; }
 .tl-at-sc-descr-images > div img { max-width: 100%; }
 .tl-at-revolution { background: $blackLight; }
@@ -69,4 +77,12 @@
 .tl-at-um-d-i-image img { max-width: 100%; }
 .tl-at-sz-image-1 img,
 .tl-at-sz-d2-image img,
-.tl-at-sz-image-2 img { max-width: 100%; }
+.tl-at-sz-image-2 img {
+  width: 100%;
+  max-width: 100%;
+}
+.tl-at-um-descr {
+  padding-right: 18px;
+  padding-left: 18px;
+}
+.tl-at-sz-descr { padding: 0 16%; }

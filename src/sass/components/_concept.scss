@@ -17,8 +17,10 @@
   position: absolute;
   right: -340px;
   width: 435px;
-  padding: 25px;
+  padding: 45px 25px;
   background-color: $white;
+  border-right: 1.5px solid $brown;
+  border-bottom: 1.5px solid $brown;
 }
 .tl-con2 { background-color: $silver; }
 .tl-con1-descr.con2 > div {
@@ -28,5 +30,6 @@
 .tl-con1-descr.con2 .tl-con1-descr-text {
   right: auto;
   left: -340px;
+  width: 570px;
   background-color: $blackLight;
 }

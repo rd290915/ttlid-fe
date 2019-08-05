@@ -14,8 +14,8 @@ html { font-family: $OpenSans; }
   padding-right: 80px;
 }
 .tl-sec-padding-y {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 125px;
+  padding-bottom: 115px;
 }
 .tl-sec-title,
 .tl-sec-title-small {
@@ -25,10 +25,11 @@ html { font-family: $OpenSans; }
   font-size: 36px;
 }
 .tl-sec-title-small {
+  margin-bottom: 30px;
   font-family: $OpenSansBold;
   font-size: 18px;
 }
-.tl-sec-title.bordered { padding-bottom: 25px; }
+.tl-sec-title.bordered { padding-bottom: 7px; }
 .tl-sec-title.bordered::before {
   content: '';
   display: block;
@@ -46,7 +47,7 @@ html { font-family: $OpenSans; }
 .tl-sec-title.gap-0 { margin-bottom: 0; }
 .tl-sec-title-litle {
   position: relative;
-  padding: 10px;
+  padding: 5px 15px;
   margin-bottom: 45px;
   background-color: $black;
   font-family: $OpenSans;
@@ -100,3 +101,22 @@ html { font-family: $OpenSans; }
 .trajanpro-bold { font-family: $TrajanProBold; }
 .opensans { font-family: $OpenSans; }
 .opensans-bold { font-family: $OpenSansBold; }
+#concept-concept-1 .tl-sec-title,
+#concept-concept-2 .tl-sec-title,
+#landscape-landscape .tl-sec-title,
+#landscape-design .tl-sec-title,
+#facilities-gallery .tl-sec-title,
+#adventages-2-ultimate .tl-sec-title {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+#adventages-1-header .tl-container.pad-more,
+#adventages-2-header .tl-container.pad-more,
+#adventages-1-design .tl-container.pad-more,
+#adventages-2-security .tl-container {
+  padding-right: 11.15%;
+  padding-left: 11.15%;
+}
+#unit-living.tl-sec-padding-y,
+#unit-luxurious.tl-sec-padding-y,
+#unit-japanese.tl-sec-padding-y { padding-bottom: 0; }

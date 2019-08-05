@@ -1,4 +1,4 @@
-.tl-mk-m { background-color: $silver; }
+.tl-mk-m { background-color: #cecece; }
 .tl-sd-m-title-grid { position: relative; }
 .tl-sd-m-title-grid::before {
   content: '';
@@ -14,12 +14,12 @@
 .tl-mk-o { background-color: $blackLight; }
 .tl-sd-table-item-wrapper .tl-au-table-item { border: none; }
 .tl-au-table > .row > .col-lg-5 {
-  flex: 0 0 45%;
-  max-width: 45%;
+  flex: 0 0 46.5%;
+  max-width: 46.5%;
 }
 .tl-au-table > .row > .col-lg-2 {
-  flex: 0 0 10%;
-  max-width: 10%;
+  flex: 0 0 7%;
+  max-width: 7%;
 }
 .tl-sd-table-item-wrapper > div:nth-child(2) { padding: 15px 0; }
 .tl-sd-table-item-value {

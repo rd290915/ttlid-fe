@@ -73,13 +73,15 @@
     width: 100%;
     padding: 25px;
   }
-  .tl-header-menu > a {
+  .tl-header-menu > a,
+  .tl-header-menu.top > a {
     display: block;
     height: auto;
     padding: 10px 0;
     border-bottom: none;
+    font-family: $TrajanPro;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   // footer
@@ -417,4 +419,19 @@
   .tl-at-menu-2-item { text-align: left !important; }
   .tl-mk-map-item > div { display: none; }
   .tl-mk-map-item > div.mobile { display: block; }
+  #concept-concept-1 .tl-sec-title,
+  #concept-concept-2 .tl-sec-title,
+  #landscape-landscape .tl-sec-title,
+  #landscape-design .tl-sec-title,
+  #facilities-gallery .tl-sec-title,
+  #adventages-2-ultimate .tl-sec-title,
+  .tl-at-um-descr {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .tl-at-sc-descr > .row > .tl-at-sc-descr-images.col-md-4,
+  .tl-at-sc-descr > .row > .tl-at-sc-descr-text.col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
