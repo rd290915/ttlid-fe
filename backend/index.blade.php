@@ -33,13 +33,13 @@
           <div class="display-flex flex-wrap justify-content-center">
             <!-- text -->
             <h1 class="tl-home-header-text width-100 text-center">
-              {{ $i->detail }}
+              {!! $i->detail !!}
             </h1>
     
             <!-- button -->
             <div class="tl-home-header-button">
-              <a class="tl-button btn-white" href="{{ url('/tower-tour') }}">
-                Tower Tour Preview
+              <a href="{{ $i->button_image_link }}" class="tl-button btn-white">
+                {{ $i->button_image_title }}
               </a>
             </div>
     
@@ -138,7 +138,7 @@
             <div class="tl-home-fac-list-item-text display-flex justify-content-center align-items-center">{{ $i->title }}</div>
           </div>
           <h3 class="tl-home-fac-list-item-title">
-            {{ $i->detail }}
+            {!! $i->detail !!}
           </h3>
         </div>
         @endforeach
@@ -156,23 +156,27 @@
 <!-- section 4 landscape -->
 <div class="tl-home-ls" id="home-landscape">
   <!-- slider -->
+  @if(count($image->where('section', 'multiple-image-4')) >= 2)
   <div class="tl-home-landscape-slider" id="home-landscape-slider">
-    @foreach($image->where('section', 'multiple-image-4') as $i)
-    <div class="tl-home-ls-slider-item" j-direction="parallax" data-parallax-bg-image="{{ asset('/images/gallery/'.$i->image) }}">
-      <div class="tl-container tl-sec-padding-y display-flex align-items-center">
-        <div>
-          <h2 class="tl-sec-title text-white gap-less">{{ $i->title }}</h2>
-          <p class="tl-home-ls-text text-white mb-25">
-            {{ $i->detail }}
-          </p>
-          <div class="tl-home-ls-button display-flex">
-            <a class="tl-button btn-white" href="{{ url('/landscape-design') }}" style="text-decoration: none;">See More</a>
-          </div>
+  @endif
+  @foreach($image->where('section', 'multiple-image-4') as $i)
+  <div class="tl-home-ls-slider-item" j-direction="parallax" data-parallax-bg-image="{{ asset('/images/gallery/'.$i->image) }}">
+    <div class="tl-container tl-sec-padding-y display-flex align-items-center">
+      <div>
+        <h2 class="tl-sec-title text-white gap-less">{{ $i->title }}</h2>
+        <p class="tl-home-ls-text text-white mb-25">
+          {!! $i->detail !!}
+        </p>
+        <div class="tl-home-ls-button display-flex">
+          <a class="tl-button btn-white" href="{{ $i->button_image_link }}" style="text-decoration: none;">{{ $i->button_image_title }}</a>
         </div>
       </div>
     </div>
-    @endforeach
   </div>
+  @endforeach
+  @if(count($image->where('section', 'multiple-image-4')) >= 2)
+  </div>
+  @endif
 </div>
   
 

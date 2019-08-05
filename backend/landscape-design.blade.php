@@ -112,7 +112,7 @@
         <!-- descr -->
         <div class="tl-lad-descr">
           <p class="text-center text-black">
-            {{ $i->detail }}
+            {!! $i->detail !!}
           </p>
         </div>
       </div>

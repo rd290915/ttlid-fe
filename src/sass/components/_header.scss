@@ -68,6 +68,7 @@
   transition: $transition_03s;
   cursor: pointer;
 }
+.tl-header-menu.mobile { display: none; }
 .tl-header-menu.top > a { font-size: 12px; }
 .tl-header.bg-white .tl-header-menu > a { color: $black; }
 .tl-header.bg-black .tl-header-menu > a { color: $white; }

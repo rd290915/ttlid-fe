@@ -1,7 +1,6 @@
 @extends('web.layouts.web')
 
 @section('css')
-
 @endsection
 
 @section('content')
@@ -71,9 +70,10 @@
     </div>
   </div>
 </div>
+  
 
 
-    <!-- section 3 luxurious -->
+  <!-- section 3 luxurious -->
     <div class="tl-lad-design tl-sec-padding-y" id="unit-luxurious">
   <div class="tl-container pad-more">
     <!-- title -->
@@ -83,9 +83,8 @@
 
     <!-- images -->
     <div class="tl-up-image no-pad mb-50">
-      <div class="display-flex">
-        <div data-image="{{ asset('/images/gallery/'. $image->where('section', 'luxuriousstyle-img')->first()->image) }}" style="height: 100%; width: 50%; background-image: url('{{ asset('/images/gallery/'. $image->where('section', 'luxuriousstyle-img')->first()->image) }}'); background-repeat: no-repeat; background-position: center center; background-size: cover;">&nbsp;</div>
-        <div data-image="{{ asset('/images/gallery/'. $image->where('section', 'luxuriousstyle-img')->first()->image) }}" style="height: 100%; width: 50%; background-image: url('{{ asset('/images/gallery/'. $image->where('section', 'luxuriousstyle-img')->first()->image) }}'); background-repeat: no-repeat; background-position: center center; background-size: cover;">&nbsp;</div>
+      <div>
+        <img src="{{ asset('/images/gallery/'. $image->where('section', 'luxuriousstyle-img')->first()->image) }}">
       </div>
     </div>
 
@@ -97,6 +96,7 @@
     </div>
   </div>
 </div>
+
 
 
     <!-- section 4 japanese -->
@@ -138,29 +138,29 @@
         <form class="tl-up-rp-filter-form-wrap display-flex">
           <!-- select -->
           <div class="tl-up-rp-filter-select">
-            <select class="tl-field-select">
-              <option value="north-tower" selected>North Tower</option>
+            <select class="tl-field-select category-room">
+              @foreach($room_plan_category as $d)
+              <option value="{{ $d->id }}">{{ $d->category_name }}</option>
+              @endforeach
             </select>
           </div>
 
           <!-- list type -->
-          <div class="tl-up-rp-filter-type display-flex">
-            <a class="tl-up-rp-filter-type-item active">2 Bed Type</a>
-            <a class="tl-up-rp-filter-type-item">1 Bed Type</a>
+          <div class="tl-up-rp-filter-type display-flex list" id="list_data">
           </div>
         </form>
       </div>
     </div>
 
     <!-- name -->
-    <h4 class="tl-up-rp-filter-name tranjanpro-bold text-center font-size-18px text-white">
-      125sqm(Net)
+    <h4 class="tl-up-rp-filter-name tranjanpro-bold text-center font-size-18px text-white" id="text-room-plan">
+      
     </h4>
   </div>
 
   <!-- section image -->
-  <div class="tl-up-rp-result tl-container pad-more text-center">
-    <img src="{{ asset('/images/gallery/'. $image->where('section', 'bottom-room-plan-1')->first()->image) }}" alt="Room Plans"> 
+  <div class="tl-up-rp-result tl-container pad-more text-center" id="image_data">
+
   </div>
 </div>
 
@@ -184,4 +184,61 @@
 @endsection
 
 @section('js')
+
+<script>
+  $(document).ready(function(){
+    var _token = "{{ csrf_token() }}";
+    var id = "{{ $room_plan_category->first()->id }}";
+    load_data_list(id, _token);
+
+    $(document).on('change', '.category-room', function(){
+      var category = $(this).val();
+      load_data_list(category, _token);
+    });
+
+    $(document).on('click', '.room-list', function(){
+      var id = $(this).data('id');
+      $(this).closest('.list').find('a.active').removeClass('active');
+      $(this).addClass('active');
+      $('#image_data').html('<b style="color:white; margin:100px;">Loading...</b>');
+      load_data_image(id, _token);
+    });
+
+    function load_data_list(id, _token)
+    {
+      $.ajax({
+        url:"{{ url('/room-plan-list/load-data') }}" ,
+        method:"POST",
+        data:{id:id, _token:_token},
+        success:function(data)
+        {        
+          var list = '';
+          data.data.forEach(function(data, index) {
+            var isIndex = index == 0;
+            list += '<a class="tl-up-rp-filter-type-item '+ (isIndex ? 'active' : '') +' room-list" data-id="'+data.id+'">'+data.title+'</a>';
+          });
+          $('#list_data').html(list);
+          load_data_image(data.first_id, _token);
+        }
+      })
+    }
+
+    function load_data_image(id="", _token)
+    {
+      $.ajax({
+        url:"{{ url('/room-plan-image/load-data') }}" ,
+        method:"POST",
+        data:{id:id, _token:_token},
+        success:function(data)
+        {        
+          var image = '<img src="{{ asset("/images/room-plan/") }}/'+data.data.image+'" alt="Room Plans">';
+          var title = '<span>'+data.data.content+'</span>';
+          $('#image_data').html(image);
+          $('#text-room-plan').html(title);
+        }
+      })
+    }
+  });
+
+</script>
 @endsection

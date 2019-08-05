@@ -29,7 +29,7 @@
 
         <!-- text -->
         <p class="tl-header-text width-100 text-center text-white">
-          {!! $text->where('section', 'text-big-image')->first()->text !!}
+          {!! $text->where('section', 'child-text-big-image')->first()->text !!}
         </p>
 
         <!-- scroll down -->

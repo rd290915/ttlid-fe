@@ -150,8 +150,8 @@
 </div>
 
 
-<!-- section 2 gallery -->
-<div class="tl-home-gallery tl-sec-padding-y" id="home-gallery">
+    <!-- section 2 gallery -->
+    <div class="tl-home-gallery tl-sec-padding-y" id="home-gallery">
   <div class="tl-container">
     <!-- title -->
     <h2 class="tl-sec-title text-white text-center">
@@ -284,9 +284,9 @@
     </div>
 
     <!-- button -->
-    <!-- <div class="tl-home-galler-button display-flex justify-content-center">
+    <div class="tl-home-galler-button display-flex justify-content-center">
       <a class="tl-button btn-white">See All Photos</a>
-    </div> -->
+    </div>
 
     <!-- image popup -->
     <div class="tl-popup" id="popup-show-img-wrapper">
