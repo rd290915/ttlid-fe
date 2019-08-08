@@ -1,1 +1,28 @@
 #facilities-gallery .tl-home-fac-button .tl-button { width: auto; }
+.tl-fac-detail { background: #232323; }
+.tl-fac-table .tl-au-table-item.bg-brown { border: none; }
+.tl-fac-table .tl-au-table-item { box-sizing: border-box; }
+.tl-fac-table .tl-au-table-item:nth-child(1),
+.tl-fac-table .tl-au-table-item:nth-child(2),
+.tl-fac-table .tl-au-table-item:nth-child(3) {
+  border-top: none;
+}
+.tl-fac-table .tl-au-table-item:nth-child(3),
+.tl-fac-table .tl-au-table-item:nth-child(6),
+.tl-fac-table .tl-au-table-item:nth-child(9),
+.tl-fac-table .tl-au-table-item:nth-child(12),
+.tl-fac-table .tl-au-table-item:nth-child(15) {
+  border-right: none;
+}
+.tl-fac-table .tl-au-table-item:nth-child(13),
+.tl-fac-table .tl-au-table-item:nth-child(14),
+.tl-fac-table .tl-au-table-item:nth-child(13) {
+  border-bottom: none;
+}
+.tl-fac-table .tl-au-table-item:nth-child(1),
+.tl-fac-table .tl-au-table-item:nth-child(4),
+.tl-fac-table .tl-au-table-item:nth-child(7),
+.tl-fac-table .tl-au-table-item:nth-child(10),
+.tl-fac-table .tl-au-table-item:nth-child(13) {
+  border-left: none;
+}

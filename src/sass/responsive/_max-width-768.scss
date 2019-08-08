@@ -308,6 +308,15 @@
     max-width: 100%;
     text-align: center;
   }
+  .tl-up-rp-filter-type-item {
+    justify-content: center;
+    flex: 0 0 auto;
+    max-width: auto;
+    min-width: 42%;
+    margin-right: 2%;
+    margin-left: 2%;
+    text-align: center;
+  }
   .tl-up-rp-filter-title { margin-right: auto; }
   .tl-up-rp-filter-select {
     margin: 10px 0;
@@ -438,4 +447,5 @@
     flex: 0 0 100%;
     max-width: 100%;
   }
+  .tl-fac-table .tl-au-table-item { border: 1px solid white !important; }
 }

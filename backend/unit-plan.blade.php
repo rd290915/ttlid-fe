@@ -138,11 +138,13 @@
         <form class="tl-up-rp-filter-form-wrap display-flex">
           <!-- select -->
           <div class="tl-up-rp-filter-select">
-            <select class="tl-field-select category-room">
-              @foreach($room_plan_category as $d)
-              <option value="{{ $d->id }}">{{ $d->category_name }}</option>
-              @endforeach
-            </select>
+            <label class="tl-field-select-wrapper">
+              <select class="tl-field-select category-room">
+                @foreach($room_plan_category as $d)
+                <option value="{{ $d->id }}">{{ $d->category_name }}</option>
+                @endforeach
+              </select>
+            </label>
           </div>
 
           <!-- list type -->

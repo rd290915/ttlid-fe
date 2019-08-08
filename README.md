@@ -13,10 +13,13 @@
 - Noted:
 
 - Feedback:
-  - [o] [Layout] [Navbar] [Responsive] Menu dibuat height 100%
+  - [o] Buat halaman Redesign Facilities
+  - [o] [Facilities] [Responsive] Halaman Redesign Facilities
+  - [o] [UnitPlans] [Responsive] Select diberi icon dropdown
+  - [o] [UnitPlans] [Responsive] Data kamar dibuat center
 
 - File dirubah:
-  - Layout: Navbar
+  - Facilities
 
 - File dirubah dalam folder Backend:
-  - [o] Layout: Navbar
+  - [o] UnitPlans

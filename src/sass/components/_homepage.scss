@@ -53,7 +53,9 @@
 .tl-home-gallery-list-item > a > div { transition: $transition_03s; }
 .tl-home-gallery-list-item > a:hover > div { transform: scale(1.25, 1.25) }
 .tl-home-galler-button { margin-top: 50px; }
+#facilities-gallery { background: #ececec; }
 .tl-home-fac-list { margin-bottom: 50px; }
+.tl-home-fac-list.smaller { margin-bottom: 0; }
 .tl-home-fac-list.no-gap { margin-bottom: 0; }
 .tl-home-fac-list-item-thumb {
   position: relative;
@@ -68,6 +70,7 @@
   width: 100%;
   transition: $transition_03s;
 }
+.tl-home-fac-list-item.smaller { margin-bottom: 40px; }
 .tl-home-fac-list-item-thumb:hover .tl-home-fac-list-item-bg { transform: scale(1.25, 1.25) }
 .tl-home-fac-list-item-text {
   position: relative;
@@ -83,6 +86,7 @@
   font-size: 16px;
   color: #000;
 }
+.tl-home-fac-list-item-title.smaller { font-family: $OpenSans; }
 .tl-home-ls-slider-item > div { background: rgba(49,31,17,0.5); }
 .tl-home-ls-slider-item.shahow-white > div { background: rgba(255,255,255,0.2); }
 .tl-home-ls-slider-item:not(.height-auto) .tl-container { height: 455px; }
@@ -261,3 +265,4 @@
   font-size: 16px;
   color: $white;
 }
+.tl-home-fac-text { margin-bottom: 55px; }
