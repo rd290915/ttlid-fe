@@ -13,10 +13,8 @@
 - Noted:
 
 - Feedback:
-  - [o] Buat halaman Redesign Facilities
-  - [o] [Facilities] [Responsive] Halaman Redesign Facilities
-  - [o] [UnitPlans] [Responsive] Select diberi icon dropdown
-  - [o] [UnitPlans] [Responsive] Data kamar dibuat center
+  - [o] [Homepage] Video descr masih terlalu rapat title dan textnya
+  - [o] [Layout] [Footer] Font Text nomor telp dibuat sama seperti label nya
 
 - File dirubah:
   - Facilities
