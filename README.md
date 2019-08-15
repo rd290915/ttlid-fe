@@ -13,11 +13,9 @@
 - Noted:
 
 - Feedback:
-  - [o] [Homepage] Video descr masih terlalu rapat title dan textnya
-  - [o] [Layout] [Footer] Font Text nomor telp dibuat sama seperti label nya
+  - [o] [CSS] Rubah isi style class .tb-home-lc-map-title
+  - [o] [CSS] Rubah dropdown select jadi font-color black
 
 - File dirubah:
-  - Facilities
 
 - File dirubah dalam folder Backend:
-  - [o] UnitPlans
