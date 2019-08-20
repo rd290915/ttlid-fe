@@ -13,8 +13,7 @@
 - Noted:
 
 - Feedback:
-  - [o] [CSS] Rubah isi style class .tb-home-lc-map-title
-  - [o] [CSS] Rubah dropdown select jadi font-color black
+  - [dev] [Homepage] Map yang ada 2 di bagian footer akhirnya dirubah lagi jadi 1. Dan menggunakan Image berikut
 
 - File dirubah:
 

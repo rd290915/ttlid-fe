@@ -157,7 +157,7 @@
         {!! $text->where('section', 'text-big-image-footer-2')->first()->text !!}
       </p>
       <div class="tl-home-ls-button display-flex justify-content-center">
-        <a class="tl-button btn-white">See details</a>
+        <a href="{{ url('/future') }}" class="tl-button btn-white">See details</a>
       </div>
     </div>
   </div>

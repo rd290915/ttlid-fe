@@ -79,7 +79,7 @@
         <div>
           <div class="tl-field-chekbox">
             <div class="tl-field-chekbox-input">
-              <input type="radio" class="tl-field-chekbox-input-field" name="category" value="appoinment" id="form-appoinment">
+              <input type="radio" class="tl-field-chekbox-input-field" name="category" value="appoinment" id="form-appoinment" required="required">
               <div class="tl-field-chekbox-input-skin"></div>
             </div>
             <label class="tl-field-chekbox-label" for="form-appoinment">
@@ -95,7 +95,7 @@
         <div>
           <div class="tl-field-chekbox">
             <div class="tl-field-chekbox-input">
-              <input type="radio" class="tl-field-chekbox-input-field" name="category" value="inquery" id="form-inqure">
+              <input type="radio" class="tl-field-chekbox-input-field" name="category" value="inquery" id="form-inqure" required="required">
               <div class="tl-field-chekbox-input-skin"></div>
             </div>
             <label class="tl-field-chekbox-label" for="form-inqure">
@@ -174,7 +174,7 @@
         <div class="mr-10">
           <div class="tl-field-chekbox">
             <div class="tl-field-chekbox-input">
-              <input type="radio" class="tl-field-chekbox-input-field" name="accept" value="agree" id="form-agree">
+              <input type="radio" class="tl-field-chekbox-input-field" name="accept" value="agree" id="form-agree" required="required">
               <div class="tl-field-chekbox-input-skin"></div>
             </div>
             <label class="tl-field-chekbox-label" for="form-agree">

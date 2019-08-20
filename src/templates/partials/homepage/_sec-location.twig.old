@@ -1,0 +1,21 @@
+<div class="tl-home-lc tl-sec-padding-y" id="home-location">
+  <div class="tl-container">
+    <!-- title -->
+    <h2 class="tl-sec-title text-white text-center">
+      Location
+    </h2>
+
+    <!-- map -->
+    <div class="tl-home-lc-map">
+      <div class="row align-items-center">
+        <div class="col-md-6 col-sm-12">
+          <img src="../../../img/images/map.jpg" alt="Map">
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h4 class="tb-home-lc-map-title mb-25">Marketing Gallery Office</h4>
+          <img src="../../../img/images/map-2.jpg" alt="Map">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -381,7 +381,8 @@
 
     <!-- map -->
     <div class="tl-home-lc-map">
-      <div class="row align-items-center">
+      <!-- old -->
+      <!-- <div class="row align-items-center">
         <div class="col-md-6 col-sm-12">
           <iframe width="1126" height="460" id="gmap_canvas" src="{!! $text->where('section', 'google-maps-url')->first()->text !!}" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
@@ -389,7 +390,9 @@
           <h4 class="tb-home-lc-map-title mb-25">Marketing Gallery Office</h4>
           <img src="{{ asset('/images/gallery/'. $image->where('section', 'image-map')->first()->image) }}" alt="Map">
         </div>
-      </div>
+      </div> -->
+
+      <img src="../../../img/images/home-map-new.jpeg" alt="Map">
     </div>
   </div>
 </div>
